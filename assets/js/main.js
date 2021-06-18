@@ -197,3 +197,23 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+
+/*==================== TYPED ANIMATION ====================*/
+var typed = new Typed(".typing", {
+    strings: ["Hi, I am <br><b>Andreas</b>.", "你好，我是<br><b>卓彦豪</b>。", "こんにちは、私は<br><b>アンドレアスです</b>。", "Hallo, ich bin <br><b>Andreas</b>."],
+    typeSpeed: 100,
+    backSpeed: 60,
+    backDelay: 2500,
+    loop: true
+})
+
+
+
+
+
+
+
+
+
+
