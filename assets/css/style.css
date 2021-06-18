@@ -27,7 +27,7 @@
     --body-font: 'Quicksand', sans-serif;
 
     /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
-    --big-font-size: 2rem;
+    --big-font-size: 1.8rem;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
     --h3-font-size: 1.125rem;
@@ -59,7 +59,7 @@
 /* Font size for large devices */
 @media screen and (min-width: 968px) {
     :root {
-        --big-font-size: 2.75rem;
+        --big-font-size: 2.3rem;
         --h1-font-size: 2.25rem;
         --h2-font-size: 1.5rem;
         --h3-font-size: 1.25rem;
@@ -230,14 +230,20 @@ img{max-width: 100%;
     align-items: center;
 }
 
-.nav__logo,
+
 .nav__toggle{
     color: var(--title-color);
     font-weight: var(--font-medium);
 }
 
-.nav__logo:hover{
-    color: var(--first-color);
+.nav__logo{
+    width: 40px;
+}
+body>header>nav>a.nav__logo>img.andreas__icon{
+    content: url("../img/andreas-white.png");
+}
+body.dark-theme>header>nav>a.nav__logo>img.andreas__icon{
+    content: url("../img/andreas.png");
 }
 
 .nav__toggle{
@@ -256,7 +262,7 @@ img{max-width: 100%;
         left: 0;
         width: 100%;
         background-color: var(--body-color);
-        padding: 2rem 1.5rem 4rem;
+        padding: 4rem 1.5rem 4rem;
         box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
         border-radius: 1.5rem 1.5rem 0 0;
         transition:  0.3s;
@@ -353,6 +359,9 @@ img{max-width: 100%;
 
 .home__title{
     font-size: var(--big-font-size);
+}
+.home__typed{
+    height: 100px;
 }
 
 .home__subtitle{
@@ -1165,14 +1174,14 @@ img{max-width: 100%;
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
-@media screen and (max-width: 350px){
+@media screen and (min-width: 320px){
     .container{
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
     }
 
     .nav__menu{
-        padding: 2rem 0.25rem 4rem;
+        padding: 4rem 0.25rem 4rem;
     }
 
     .nav__list{
@@ -1223,6 +1232,9 @@ img{max-width: 100%;
     .testimonial__description{
         text-align: center;
     }
+    .home__typed{
+    height: 80px;
+    }
 
 }
 
@@ -1242,10 +1254,17 @@ img{max-width: 100%;
     .about__container,
     .skills__container,
     .portfolio__content,
-    .project__container,
     .contact__container,
     .footer__container{
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .project__container{
+        background-color: var(--first-color-second);
+        border-radius: 1rem;
+        padding: 1rem 2.5rem 2rem;
+        grid-template-columns: 1fr max-content;
+        column-gap: 3rem;
     }
 
     .qualification__sections{
@@ -1253,10 +1272,16 @@ img{max-width: 100%;
         grid-template-columns: 0.6fr;
         justify-content: center;
     }
+    .home__title{
+        font-size: 25px;
+    }
+    .home__typed{
+    height: 75x;
+    }
 }
 
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     .container{
         margin-left: auto;
         margin-right: auto;
@@ -1377,7 +1402,7 @@ img{max-width: 100%;
     .project__container{
         background-color: var(--first-color-second);
         border-radius: 1rem;
-        padding: 3rem 2.5rem 0;
+        padding: 3rem 2.5rem 2rem;
         grid-template-columns: 1fr max-content;
         column-gap: 3rem;
     }
@@ -1401,8 +1426,20 @@ img{max-width: 100%;
     .footer__copy{
         margin-top: 4.5rem;
     }
+    .home__title{
+        font-size: var(--big-font-size);
+    }
+    .home__typed{
+    height: 85px;
+    }
 }
 
+@media screen and (min-width: 968px){
+
+.home__typed{
+    height: 100px;
+    }
+}
 
 /* For large devices */
 @media screen and (min-width: 1024px){
@@ -1445,4 +1482,18 @@ img{max-width: 100%;
     .contact__inputs{
         grid-template-columns: repeat(2, 1fr);
     }
+    .home__title{
+        font-size: var(--big-font-size);
+    }
+    .home__typed{
+    height: 100px;
+    }
+}
+
+.typed-cursor{
+    font-size: var(--big-font-size);
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
 }
