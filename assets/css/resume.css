@@ -620,8 +620,8 @@ img{
   }
 
   .interests__container{
-    grid-template-columns: repeat(4, max-content);
-    column-gap: 3.5rem;
+    grid-template-columns: 100px 100px 100px 100px repeat(4, max-content);
+    column-gap: 2rem;
   }
 }
 
