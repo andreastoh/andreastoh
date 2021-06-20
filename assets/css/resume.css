@@ -58,7 +58,7 @@ body.dark-theme{
 .change-theme{
   position: absolute;
   right: 0;
-  top: 1rem;
+  top: 2.2rem;
   display: flex;
   color: var(--text-color);
   font-size: 1.2rem;
@@ -84,7 +84,7 @@ body.scale-cv{
 .generate-pdf{
   display: none;
   position: absolute;
-  top: 1rem;
+  top: 2.2rem;
   left: 0;
   font-size: 1.2rem;
   color: var(--text-color);
@@ -106,20 +106,16 @@ body.scale-cv{
 }
 
 .scale-cv .section{
-  padding: 0.5rem 0 0.80rem;
+  padding: 1.5rem 0 0.80rem;
 }
 
 .scale-cv .section-title{
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
 }
 
 .scale-cv .resume__left,
 .scale-cv .resume__right{
   padding: 0 1rem;
-}
-
-.scale-cv .languages__content{
-  column-gap: 0.75rem;
 }
 
 .scale-cv .home__img{
@@ -128,7 +124,7 @@ body.scale-cv{
 }
 
 .scale-cv .home__container{
-  gap:  0.75rem;
+  gap:  1.5rem;
 }
 
 .scale-cv .home__data{
@@ -136,7 +132,7 @@ body.scale-cv{
 }
 
 .scale-cv .home__address{
-  gap:  0.5rem;
+  gap:  0.75rem;
 }
 
 .scale-cv .home__icon,
@@ -222,7 +218,7 @@ img{
 
 /*========== CLASS CSS ==========*/
 .section{
-  padding: 0.75rem 0;
+  padding: 1.5rem 0;
 }
 
 .section-title{
@@ -232,7 +228,7 @@ img{
   text-transform: uppercase;
   letter-spacing: 0.35rem;
   text-align: center;
-  margin-bottom: var(--mb-2);
+  margin-bottom: var(--mb-3);
 }
 
 /*========== LAYOUT ==========*/
@@ -443,7 +439,7 @@ img{
 
 .education__data,
 .experience__data{
-  gap:  0.25rem;
+  gap:  0.5rem;
 }
 
 .education__title{
@@ -603,7 +599,7 @@ img{
   }
 
   .home__container{
-    gap: 1rem;
+    gap: 1.5rem;
   }
 
   .home__button-movil{
