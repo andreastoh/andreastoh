@@ -400,7 +400,7 @@ img{
   color: var(--text-color);
 }
 
-.social__link:hover{
+.home__link:hover{
   color: var(--title-color);
 }
 
