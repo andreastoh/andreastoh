@@ -436,11 +436,18 @@ img{
   margin-top: 0.25rem;
 }
 
-.education__line,
-.experience__line{
+.education__line{
   display: block;
   width: 2px;
   height: 110%;
+  background-color: var(--text-color-light);
+  transform: translate(7px, 0);
+}
+
+.experience__line{
+  display: block;
+  width: 2px;
+  height: 105%;
   background-color: var(--text-color-light);
   transform: translate(7px, 0);
 }
