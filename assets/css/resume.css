@@ -452,6 +452,25 @@ img{
   transform: translate(7px, 0);
 }
 
+.experience__info{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.experience__name{
+  font-size: var(--normal-font-size);
+}
+
+.experience__date{
+  font-size: var(--small-font-size);
+  text-align: right;
+  float: right;
+}
+
+.experience-grid{
+  gap: 0.5rem;
+}
+
 .education__data,
 .experience__data{
   gap:  0.5rem;
