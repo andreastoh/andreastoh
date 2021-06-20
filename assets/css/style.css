@@ -241,12 +241,7 @@ img{max-width: 100%;
 .nav__logo{
     width: 40px;
 }
-body>header>nav>a.nav__logo>img.andreas__icon{
-    content: url("../img/andreas-white.png");
-}
-body.dark-theme>header>nav>a.nav__logo>img.andreas__icon{
-    content: url("../img/andreas.png");
-}
+
 
 .nav__toggle{
     font-size: 1.1rem;
