@@ -22,7 +22,7 @@
     --container-color: #FFF;
     --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
-    --clr-neon: hsl(222 100% 54%);
+    --clr-neon: #d4af37;
     --clr-bg: hsl(250 21% 16%);
 
     /*========== Font and typography ==========*/
