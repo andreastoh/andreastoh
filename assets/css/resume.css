@@ -215,7 +215,7 @@ img{
 
 /*========== CLASS CSS ==========*/
 .section{
-  padding: 1.3rem 0;
+  padding: 1.5rem 0;
 }
 
 .section-title{
@@ -640,10 +640,7 @@ img{
     display: none;
   }
 
-  .languages__content{
-    grid-template-columns: repeat(4, max-content);
-    column-gap: 3.5rem;
-  }
+  
 
   .interests__container{
     grid-template-columns: repeat(3, max-content);
