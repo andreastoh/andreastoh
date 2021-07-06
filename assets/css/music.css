@@ -2048,6 +2048,60 @@ header nav .brand a img{
     width: 300px; 
 	height: 250px; 
 }
+.flex{
+		display: block;
+		bottom: 0;
+		height: 50px;
+		width: 100%;
+		background-color: #ffffff;
+	}
+
+	footer{
+		padding-left: 0;
+		padding-right: 0;
+		height: 90px;
+	}
+
+	footer p{
+		text-align: center;
+		margin-left: auto;
+	}
+
+	.social-icons {
+		margin-top: 0px;
+		text-align: center;
+		background-color: #ffffff;
+  }  
+  img#andreas{
+  	margin-right: 5px;
+  	margin-left: 5px;
+  	margin-top: 0;
+  	margin-bottom: 5px;
+  }
+  img#spotify{
+  	margin-right: 5px;
+  	margin-left: 5px;
+  	margin-top: 0;
+  	margin-bottom: 5px;
+  }
+  img#youtube{
+  	margin-right: 5px;
+  	margin-left: 5px;
+  	margin-top: 0;
+  	margin-bottom: 5px;
+  }
+  img#facebook{
+  	margin-right: 5px;
+  	margin-left: 5px;
+  	margin-top: 0;
+  	margin-bottom: 5px;
+  }
+  img#soundcloud{
+  	margin-right: 5px;
+  	margin-left: 5px;
+  	margin-top: 0;
+  	margin-bottom: 5px;
+  }
 
 }
 
