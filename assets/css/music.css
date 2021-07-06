@@ -1015,79 +1015,6 @@ header nav .brand a img{
 	  padding: 1em;
 	}
 
-	@media (max-width: 896px){
-
-	.container{
-		width: 100%;
-		overflow: hidden;
-		margin: auto;
-	}
-
-	.flex{
-		display: block;
-		bottom: 0;
-		height: 50px;
-		width: 100%;
-		background-color: #ffffff;
-	}
-
-	footer{
-		padding-left: 0;
-		padding-right: 0;
-		height: 90px;
-	}
-
-	footer p{
-		text-align: center;
-		margin-left: auto;
-	}
-
-	.social-icons {
-		margin-top: 0px;
-		text-align: center;
-		background-color: #ffffff;
-  }  
-  img#andreas{
-  	margin-right: 0;
-  	margin-left: 0;
-  	margin-top: 0;
-  	margin-bottom: 5px;
-  }
-  img#spotify{
-  	margin-right: 0;
-  	margin-left: 0;
-  	margin-top: 0;
-  	margin-bottom: 5px;
-  }
-  img#youtube{
-  	margin-right: 0;
-  	margin-left: 0;
-  	margin-top: 0;
-  	margin-bottom: 5px;
-  }
-  img#facebook{
-  	margin-right: 0;
-  	margin-left: 0;
-  	margin-top: 0;
-  	margin-bottom: 5px;
-  }
-  img#soundcloud{
-  	margin-right: 0;
-  	margin-left: 0;
-  	margin-top: 0;
-  	margin-bottom: 5px;
-  }
-
-  #showcase{
-  	padding-top: 100px;
-  }
-  #showcase h1{
-  	font-size: 40px;
-  }
-
-
-
-}
 
 ul.social-icons {
  padding:  0px 25px;
@@ -1142,6 +1069,14 @@ ul.social-icons {
 .row {
 	  display: flex;
 	  flex-wrap: wrap;
+	}
+
+#showcase{
+		min-height: 280px;
+		background: url('../img/music/hardrockrising.jpg') no-repeat -230px 50%;
+		background-size: 800px;
+		text-align: center;
+		color: #ffffff; 
 	}
 
 header #branding, header nav,
@@ -1220,7 +1155,7 @@ header .current a{
 		list-style: none;
 	}
 header nav .brand a img{
-	margin: 0px 50px;
+	margin: 0px 0px;
 	padding: 0;
 	float: left;
 	height: 75px;
@@ -1257,6 +1192,848 @@ header nav .brand a img{
   	margin-bottom: 5px;
   }
 
+.beginning__section{
+	padding-top: 6.6vmax;
+    padding-bottom: 6.6vmax;
+    padding-right: 0vw;
+    padding-left: 0vw;
+    margin: 0 auto;
+    box-sizing: content-box;
+    justify-content: center;
+}
+
+
+.beginning__img{
+	position: relative;
+    max-width: 300px;
+}
+
+.beginning2__img{
+	position: relative;
+    max-width: 500px;
+    padding-top: 3vmax;
+}
+
+.beginning__header{
+	position: relative;
+	top: 15%;
+	font-size: 25px;
+	font-family: Quicksand;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+    text-align: center;
+    margin: 0rem 2rem;
+}
+
+.beginning__description{
+	position: relative;
+	top: 15%;
+	font-size: 15px;
+	word-wrap: break-word;
+	font-family: Quicksand;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    display: block;
+    margin: 2rem 2rem;
+}
+
+/* Stick em' up EP */
+
+.stickep__section{
+    padding-bottom: 6.6vmax;
+    padding-right: 0vw;
+    padding-left: 0vw;
+    margin: 0 auto;
+    box-sizing: content-box;
+    justify-content: center;
+}
+
+.stickep__img{
+	position: relative;
+    max-width: 300px;
+}
+
+.stickep__header{
+	position: relative;
+	top: 0%;
+	font-size: 22px;
+	font-family: Quicksand;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+    text-align: center;
+    margin: 2rem 2rem;
+}
+
+.stickep__description{
+	position: relative;
+	top: 0%;
+	font-size: 14px;
+	word-wrap: break-word;
+	font-family: Quicksand;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    display: block;
+    margin: 2rem 2rem;
+}
+
+/* Singapore */
+
+.singapore__section{
+    padding-bottom: 6.6vmax;
+    padding-right: 0vw;
+    padding-left: 0vw;
+    margin: 0 auto;
+    box-sizing: content-box;
+    justify-content: center;
+}
+
+.singapore__header{
+	position: relative;
+	top: 15%;
+	font-size: 40px;
+	font-family: Quicksand;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+    text-align: center;
+    margin: 2rem 2rem;
+}
+
+.singapore__description{
+	position: relative;
+	top: 15%;
+	font-size: 20px;
+	word-wrap: break-word;
+	font-family: Quicksand;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    display: block;
+    margin: 2rem 2rem;
+}
+
+.singapore2__section{
+    padding-bottom: 6.6vmax;
+    padding-right: 0vw;
+    padding-left: 0vw;
+    margin: 0 auto;
+    box-sizing: content-box;
+    justify-content: center;
+}
+
+.singapore2__header{
+	position: relative;
+	top: 5%;
+	font-size: 25px;
+	font-family: Quicksand;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+    text-align: center;
+    margin: 2rem 2rem;
+}
+
+.singapore2__description{
+	position: relative;
+	top: 5%;
+	font-size: 15px;
+	word-wrap: break-word;
+	font-family: Quicksand;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    display: block;
+    margin: 2rem 2rem;
+    padding-bottom: 7vmax;
+}
+
+.singapore2__img{
+	position: relative;
+    max-width: 300px;
+    margin: 10px 10px;
+}
+
+/* Malaysia */
+
+.malaysia__section{
+    padding-bottom: 6.6vmax;
+    padding-right: 0vw;
+    padding-left: 0vw;
+    margin: 0 auto;
+    box-sizing: content-box;
+    justify-content: center;
+}
+
+.malaysia__header{
+	position: relative;
+	top: 15%;
+	font-size: 40px;
+	font-family: Quicksand;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+    text-align: center;
+    margin: 2rem 2rem;
+}
+
+.malaysia__description{
+	position: relative;
+	top: 15%;
+	font-size: 20px;
+	word-wrap: break-word;
+	font-family: Quicksand;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    display: block;
+    margin: 2rem 2rem;
+}
+
+.malaysia2__section{
+    padding-bottom: 6.6vmax;
+    padding-right: 0vw;
+    padding-left: 0vw;
+    margin: 0 auto;
+    box-sizing: content-box;
+    justify-content: center;
+}
+
+.malaysia2__header{
+	position: relative;
+	top: 5%;
+	font-size: 25px;
+	font-family: Quicksand;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+    text-align: center;
+    margin: 2rem 2rem;
+}
+
+.malaysia2__description{
+	position: relative;
+	top: 5%;
+	font-size: 15px;
+	word-wrap: break-word;
+	font-family: Quicksand;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    display: block;
+    margin: 2rem 2rem;
+    padding-bottom: 7vmax;
+}
+
+.malaysia2__imgleft{
+	position: relative;
+    max-width: 300px;
+    margin: 10px 10px 0px 0px;
+}
+
+.malaysia2__imgright{
+	position: relative;
+    max-width: 300px;
+    margin: 10px 0px 0px 10px;
+}
+
+.malaysia3__img{
+	position: relative;
+    max-width: 1400px;
+    padding-top: 1vmax;
+    padding-bottom: 5vmax;
+}
+
+/* Taiwan */
+
+.taiwan__section{
+    padding-bottom: 6.6vmax;
+    padding-right: 0vw;
+    padding-left: 0vw;
+    margin: 0 auto;
+    box-sizing: content-box;
+    justify-content: center;
+}
+
+.taiwan__header{
+	position: relative;
+	top: 15%;
+	font-size: 40px;
+	font-family: Quicksand;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+    text-align: center;
+    margin: 2rem 2rem;
+}
+
+.taiwan__description{
+	position: relative;
+	top: 15%;
+	font-size: 20px;
+	word-wrap: break-word;
+	font-family: Quicksand;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    display: block;
+    margin: 2rem 2rem;
+}
+
+.taiwan2__section{
+    padding-bottom: 6.6vmax;
+    padding-right: 0vw;
+    padding-left: 0vw;
+    margin: 0 auto;
+    box-sizing: content-box;
+    justify-content: center;
+}
+
+.taiwan2__header{
+	position: relative;
+	top: 5%;
+	font-size: 25px;
+	font-family: Quicksand;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+    text-align: center;
+    margin: 2rem 2rem;
+}
+
+.taiwan2__description{
+	position: relative;
+	top: 5%;
+	font-size: 15px;
+	word-wrap: break-word;
+	font-family: Quicksand;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    display: block;
+    margin: 2rem 2rem;
+    padding-bottom: 7vmax;
+}
+
+.taiwan2__img{
+	position: relative;
+    max-width: 300px;
+    margin: 10px 10px;
+}
+
+/* Run to the Hills EP */
+
+.run__section{
+    padding-bottom: 6.6vmax;
+    padding-right: 0vw;
+    padding-left: 0vw;
+    margin: 0 auto;
+    box-sizing: content-box;
+    justify-content: center;
+}
+
+.run__img{
+	position: relative;
+    max-width: 300px;
+}
+
+.run__header{
+	position: relative;
+	top: 0%;
+	font-size: 22px;
+	font-family: Quicksand;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+    text-align: center;
+    margin: 2rem 2rem;
+}
+
+.run__description{
+	position: relative;
+	top: 0%;
+	font-size: 14px;
+	word-wrap: break-word;
+	font-family: Quicksand;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    display: block;
+    margin: 2rem 2rem;
+}
+
+.run__link{
+	font-size: 13px;
+	word-wrap: break-word;
+	font-family: Quicksand;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8;
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Photoshoot */
+
+.photoshoot__section{
+    padding-bottom: 6.6vmax;
+    padding-right: 0vw;
+    padding-left: 0vw;
+    margin: 0 auto;
+    box-sizing: content-box;
+    justify-content: center;
+}
+
+.photoshoot__header{
+	position: relative;
+	top: 5%;
+	font-size: 25px;
+	font-family: Quicksand;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+    text-align: center;
+    margin: 2rem 2rem;
+}
+
+.photoshoot__description{
+	position: relative;
+	top: 5%;
+	font-size: 15px;
+	word-wrap: break-word;
+	font-family: Quicksand;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    display: block;
+    margin: 2rem 2rem;
+    padding-bottom: 7vmax;
+}
+
+.photoshoot__img{
+	position: relative;
+    max-width: 300px;
+    margin: 10px 10px;
+}
+
+.photoshoot__link{
+	font-size: 15px;
+	word-wrap: break-word;
+	font-family: Quicksand;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8;
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Flyers */
+
+.flyers__section{
+    padding-bottom: 6.6vmax;
+    padding-right: 0vw;
+    padding-left: 0vw;
+    margin: 0 auto;
+    box-sizing: content-box;
+    justify-content: center;
+}
+
+.flyers__header{
+	position: relative;
+	top: 15%;
+	font-size: calc((1.8) * 2vh + 1rem);
+	font-family: Quicksand;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+    text-align: center;
+    margin: 2rem 2rem;
+}
+
+.flyers__description{
+	position: relative;
+	top: 15%;
+	font-size: calc((0.4) * 1vw + 1rem);
+	word-wrap: break-word;
+	font-family: Quicksand;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    display: block;
+    margin: 2rem 2rem;
+}
+
+.flyers2__section{
+    padding-bottom: 6.6vmax;
+    padding-right: 0vw;
+    padding-left: 0vw;
+    margin: 0 auto;
+    box-sizing: content-box;
+    justify-content: center;
+}
+
+.flyers2__header{
+	position: relative;
+	top: 5%;
+	font-size: 25px;
+	font-family: Quicksand;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+    text-align: center;
+    margin: 2rem 2rem;
+}
+
+.flyers2__description{
+	position: relative;
+	top: 5%;
+	font-size: 15px;
+	word-wrap: break-word;
+	font-family: Quicksand;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    display: block;
+    margin: 2rem 2rem;
+    padding-bottom: 7vmax;
+}
+
+.flyers2__img{
+	position: relative;
+    max-width: 300px;
+    margin: 10px 10px;
+}
+
+/* End */
+
+.end__section{
+    padding-bottom: 6.6vmax;
+    padding-right: 0vw;
+    padding-left: 0vw;
+    margin: 0 auto;
+    box-sizing: content-box;
+    justify-content: center;
+}
+
+.end__header{
+	position: relative;
+	top: 15%;
+	font-size: calc((1.8) * 2vh + 1rem);
+	font-family: Quicksand;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+    text-align: center;
+    margin: 2rem 2rem;
+}
+
+.end__description{
+	position: relative;
+	top: 15%;
+	font-size: calc((0.4) * 1vw + 1rem);
+	word-wrap: break-word;
+	font-family: Quicksand;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    display: block;
+    margin: 2rem 2rem;
+}
+
+.end2__section{
+    padding-bottom: 6.6vmax;
+    padding-right: 0vw;
+    padding-left: 0vw;
+    margin: 0 auto;
+    box-sizing: content-box;
+    justify-content: center;
+}
+
+.end2__header{
+	position: relative;
+	top: 5%;
+	font-size: 25px;
+	font-family: Quicksand;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+    text-align: center;
+    margin: 2rem 2rem;
+}
+
+.end2__description{
+	position: relative;
+	top: 5%;
+	font-size: 15px;
+	word-wrap: break-word;
+	font-family: Quicksand;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    display: block;
+    margin: 2rem 2rem;
+    padding-bottom: 7vmax;
+}
+
+.end2__img{
+	position: relative;
+    max-width: 300px;
+    margin: 10px 10px;
+}
+
+/* Videos */
+
+.videos__section{
+    padding-bottom: 6.6vmax;
+    padding-right: 0vw;
+    padding-left: 0vw;
+    margin: 0 auto;
+    box-sizing: content-box;
+    justify-content: center;
+}
+
+.videos__header{
+	position: relative;
+	top: 15%;
+	font-size: calc((1.8) * 2vh + 1rem);
+	font-family: Quicksand;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+    text-align: center;
+    margin: 2rem 2rem;
+}
+
+.videos__description{
+	position: relative;
+	top: 15%;
+	font-size: calc((0.4) * 1vw + 1rem);
+	word-wrap: break-word;
+	font-family: Quicksand;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    display: block;
+    margin: 2rem 2rem;
+}
+
 .videos__description{
 	position: relative;
 	top: 15%;
@@ -1268,15 +2045,68 @@ header nav .brand a img{
     text-align: center;
     display: block;
     margin: 1rem 0.5rem;
-    width: 400px; 
-	height: 300px; 
+    width: 300px; 
+	height: 250px; 
+}
 
 }
 
-
 /* For large devices */
-@media screen and (max-width: 1024px){
+@media screen and (min-width: 813px) and (max-width: 1024px){
+	.flex{
+		display: block;
+		bottom: 0;
+		height: 50px;
+		width: 100%;
+		background-color: #ffffff;
+	}
 
+	footer{
+		padding-left: 0;
+		padding-right: 0;
+		height: 90px;
+	}
+
+	footer p{
+		text-align: center;
+		margin-left: auto;
+	}
+
+	.social-icons {
+		margin-top: 0px;
+		text-align: center;
+		background-color: #ffffff;
+  }  
+  img#andreas{
+  	margin-right: 0;
+  	margin-left: 0;
+  	margin-top: 0;
+  	margin-bottom: 5px;
+  }
+  img#spotify{
+  	margin-right: 0;
+  	margin-left: 0;
+  	margin-top: 0;
+  	margin-bottom: 5px;
+  }
+  img#youtube{
+  	margin-right: 0;
+  	margin-left: 0;
+  	margin-top: 0;
+  	margin-bottom: 5px;
+  }
+  img#facebook{
+  	margin-right: 0;
+  	margin-left: 0;
+  	margin-top: 0;
+  	margin-bottom: 5px;
+  }
+  img#soundcloud{
+  	margin-right: 0;
+  	margin-left: 0;
+  	margin-top: 0;
+  	margin-bottom: 5px;
+  }
 .container{
 		width: 90%;
 		overflow: hidden;
