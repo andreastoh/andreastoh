@@ -1072,9 +1072,9 @@ ul.social-icons {
 	}
 
 #showcase{
-		min-height: 280px;
+		min-height: 480px;
 		background: url('../img/music/hardrockrising.jpg') no-repeat -230px 50%;
-		background-size: 800px;
+		background-size: 1200px;
 		text-align: center;
 		color: #ffffff; 
 	}
