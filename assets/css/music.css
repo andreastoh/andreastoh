@@ -1257,6 +1257,20 @@ header nav .brand a img{
   	margin-bottom: 5px;
   }
 
+.videos__description{
+	position: relative;
+	top: 15%;
+    -webkit-font-smoothing: antialiased;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    display: block;
+    margin: 1rem 0.5rem;
+    width: 400px; 
+	height: 300px; 
+
 }
 
 
@@ -1270,8 +1284,9 @@ header nav .brand a img{
 	}
 
 #showcase{
-		min-height: 800px;
-		background: url('../img/music/hardrockrising.jpg') no-repeat -500px 50%;
+		min-height: 500px;
+		background: url('../img/music/hardrockrising.jpg') no-repeat -300px 50%;
+		background-size: 1300px;
 		text-align: center;
 		color: #ffffff; 
 	}
@@ -1289,7 +1304,7 @@ header nav .brand a img{
 
 .beginning__img{
 	position: relative;
-    max-width: 400px;
+    max-width: 350px;
 }
 
 .beginning2__img{
@@ -1355,8 +1370,8 @@ header nav .brand a img{
 
 .stickep__header{
 	position: relative;
-	top: 15%;
-	font-size: 25px;
+	top: 0%;
+	font-size: 22px;
 	font-family: Quicksand;
     font-weight: 500;
     font-style: normal;
@@ -1373,8 +1388,8 @@ header nav .brand a img{
 
 .stickep__description{
 	position: relative;
-	top: 15%;
-	font-size: 15px;
+	top: 0%;
+	font-size: 14px;
 	word-wrap: break-word;
 	font-family: Quicksand;
     font-weight: 300;
@@ -1493,7 +1508,7 @@ header nav .brand a img{
 
 .singapore2__img{
 	position: relative;
-    max-width: 400px;
+    max-width: 350px;
     margin: 10px 10px;
 }
 
@@ -1598,13 +1613,13 @@ header nav .brand a img{
 
 .malaysia2__imgleft{
 	position: relative;
-    max-width: 400px;
+    max-width: 350px;
     margin: 10px 10px 0px 0px;
 }
 
 .malaysia2__imgright{
 	position: relative;
-    max-width: 400px;
+    max-width: 350px;
     margin: 10px 0px 0px 10px;
 }
 
@@ -1716,7 +1731,7 @@ header nav .brand a img{
 
 .taiwan2__img{
 	position: relative;
-    max-width: 400px;
+    max-width: 350px;
     margin: 10px 10px;
 }
 
@@ -1738,8 +1753,8 @@ header nav .brand a img{
 
 .run__header{
 	position: relative;
-	top: 15%;
-	font-size: 25px;
+	top: 0%;
+	font-size: 22px;
 	font-family: Quicksand;
     font-weight: 500;
     font-style: normal;
@@ -1756,8 +1771,8 @@ header nav .brand a img{
 
 .run__description{
 	position: relative;
-	top: 15%;
-	font-size: 15px;
+	top: 0%;
+	font-size: 14px;
 	word-wrap: break-word;
 	font-family: Quicksand;
     font-weight: 300;
@@ -1776,7 +1791,7 @@ header nav .brand a img{
 }
 
 .run__link{
-	font-size: 15px;
+	font-size: 13px;
 	word-wrap: break-word;
 	font-family: Quicksand;
     font-weight: 300;
@@ -1841,7 +1856,7 @@ header nav .brand a img{
 
 .photoshoot__img{
 	position: relative;
-    max-width: 400px;
+    max-width: 350px;
     margin: 10px 10px;
 }
 
@@ -1959,7 +1974,7 @@ header nav .brand a img{
 
 .flyers2__img{
 	position: relative;
-    max-width: 400px;
+    max-width: 350px;
     margin: 10px 10px;
 }
 
@@ -2064,7 +2079,7 @@ header nav .brand a img{
 
 .end2__img{
 	position: relative;
-    max-width: 400px;
+    max-width: 350px;
     margin: 10px 10px;
 }
 
@@ -2129,8 +2144,8 @@ header nav .brand a img{
     text-align: center;
     display: block;
     margin: 1rem 0.5rem;
-    width: 400px; 
-	height: 300px; 
+    width: 800px; 
+	height: 600px; 
 }
 
 }
@@ -2972,26 +2987,6 @@ header nav .brand a img{
     margin: 2rem 2rem;
 }
 
-.videos__description{
-	position: relative;
-	top: 15%;
-	font-size: calc((0.4) * 1vw + 1rem);
-	word-wrap: break-word;
-	font-family: Quicksand;
-    font-weight: 300;
-    font-style: normal;
-    letter-spacing: 0em;
-    text-transform: none;
-    line-height: 1.8;
-    -webkit-font-smoothing: antialiased;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: center;
-    display: block;
-    margin: 2rem 2rem;
-}
 
 .videos__description{
 	position: relative;
