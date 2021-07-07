@@ -1229,7 +1229,7 @@ header nav .brand a img{
 
 .beginning__header{
 	position: relative;
-	top: 15%;
+	top: 5%;
 	font-size: 25px;
 	font-family: Quicksand;
     font-weight: 500;
@@ -1247,7 +1247,7 @@ header nav .brand a img{
 
 .beginning__description{
 	position: relative;
-	top: 15%;
+	top: 5%;
 	font-size: 15px;
 	word-wrap: break-word;
 	font-family: Quicksand;
@@ -1335,7 +1335,7 @@ header nav .brand a img{
 .singapore__header{
 	position: relative;
 	top: 15%;
-	font-size: 40px;
+	font-size: 25px;
 	font-family: Quicksand;
     font-weight: 600;
     font-style: normal;
@@ -1353,7 +1353,7 @@ header nav .brand a img{
 .singapore__description{
 	position: relative;
 	top: 15%;
-	font-size: 20px;
+	font-size: 15px;
 	word-wrap: break-word;
 	font-family: Quicksand;
     font-weight: 300;
@@ -1440,7 +1440,7 @@ header nav .brand a img{
 .malaysia__header{
 	position: relative;
 	top: 15%;
-	font-size: 40px;
+	font-size: 25px;
 	font-family: Quicksand;
     font-weight: 600;
     font-style: normal;
@@ -1458,7 +1458,7 @@ header nav .brand a img{
 .malaysia__description{
 	position: relative;
 	top: 15%;
-	font-size: 20px;
+	font-size: 15px;
 	word-wrap: break-word;
 	font-family: Quicksand;
     font-weight: 300;
@@ -1558,7 +1558,7 @@ header nav .brand a img{
 .taiwan__header{
 	position: relative;
 	top: 15%;
-	font-size: 40px;
+	font-size: 25px;
 	font-family: Quicksand;
     font-weight: 600;
     font-style: normal;
@@ -1576,7 +1576,7 @@ header nav .brand a img{
 .taiwan__description{
 	position: relative;
 	top: 15%;
-	font-size: 20px;
+	font-size: 15px;
 	word-wrap: break-word;
 	font-family: Quicksand;
     font-weight: 300;
@@ -1801,7 +1801,7 @@ header nav .brand a img{
 .flyers__header{
 	position: relative;
 	top: 15%;
-	font-size: calc((1.8) * 2vh + 1rem);
+	font-size: 25px;
 	font-family: Quicksand;
     font-weight: 600;
     font-style: normal;
@@ -1819,7 +1819,7 @@ header nav .brand a img{
 .flyers__description{
 	position: relative;
 	top: 15%;
-	font-size: calc((0.4) * 1vw + 1rem);
+	font-size: 15px;
 	word-wrap: break-word;
 	font-family: Quicksand;
     font-weight: 300;
@@ -1906,7 +1906,7 @@ header nav .brand a img{
 .end__header{
 	position: relative;
 	top: 15%;
-	font-size: calc((1.8) * 2vh + 1rem);
+	font-size: 25px;
 	font-family: Quicksand;
     font-weight: 600;
     font-style: normal;
@@ -1924,7 +1924,7 @@ header nav .brand a img{
 .end__description{
 	position: relative;
 	top: 15%;
-	font-size: calc((0.4) * 1vw + 1rem);
+	font-size: 15px;
 	word-wrap: break-word;
 	font-family: Quicksand;
     font-weight: 300;
