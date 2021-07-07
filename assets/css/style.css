@@ -1184,6 +1184,38 @@ img{max-width: 100%;
     color: #FFF;
 }
 
+/*==================== ERROR ====================*/
+
+.error{
+    margin: 20vh 0;
+}
+
+.error__description{
+    text-align: center;
+    margin-bottom: var(--mb-2-5);
+}
+
+.error__title{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.error__subtitle{
+    display: block;
+    font-size: 30px;
+    margin-bottom: var(--mb-3);
+}
+
+.error__title,
+.error__subtitle{
+    text-align: center;
+}
+
+.error__link{
+    text-decoration: underline;
+    color: #000000;
+}
+
 /*========== SCROLL UP ==========*/
 .scrollup{
     position: fixed;
