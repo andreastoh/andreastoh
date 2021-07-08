@@ -986,15 +986,7 @@ header nav .brand a img{
 .videos__description{
 	position: relative;
 	top: 15%;
-    -webkit-font-smoothing: antialiased;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: center;
-    display: block;
-    margin: 2rem 2rem;
-    width: 1300px; 
+    width: 100%; 
 	height: 800px; 
 }
 
@@ -2026,39 +2018,11 @@ header nav .brand a img{
     margin: 2rem 2rem;
 }
 
-.videos__description{
-	position: relative;
-	top: 15%;
-	font-size: calc((0.4) * 1vw + 1rem);
-	word-wrap: break-word;
-	font-family: Quicksand;
-    font-weight: 300;
-    font-style: normal;
-    letter-spacing: 0em;
-    text-transform: none;
-    line-height: 1.8;
-    -webkit-font-smoothing: antialiased;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: center;
-    display: block;
-    margin: 2rem 2rem;
-}
 
 .videos__description{
 	position: relative;
 	top: 15%;
-    -webkit-font-smoothing: antialiased;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: center;
-    display: block;
-    margin: 1rem 0.5rem;
-    width: 300px; 
+    width: 100%; 
 	height: 250px; 
 }
 .flex{
@@ -3009,26 +2973,6 @@ header nav .brand a img{
     margin: 2rem 2rem;
 }
 
-.videos__description{
-	position: relative;
-	top: 15%;
-	font-size: calc((0.4) * 1vw + 1rem);
-	word-wrap: break-word;
-	font-family: Quicksand;
-    font-weight: 300;
-    font-style: normal;
-    letter-spacing: 0em;
-    text-transform: none;
-    line-height: 1.8;
-    -webkit-font-smoothing: antialiased;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: center;
-    display: block;
-    margin: 2rem 2rem;
-}
 
 .videos__description{
 	position: relative;
@@ -3041,7 +2985,7 @@ header nav .brand a img{
     text-align: center;
     display: block;
     margin: 1rem 0.5rem;
-    width: 800px; 
+    width: 100%; 
 	height: 600px; 
 }
 
@@ -3888,15 +3832,7 @@ header nav .brand a img{
 .videos__description{
 	position: relative;
 	top: 15%;
-    -webkit-font-smoothing: antialiased;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: center;
-    display: block;
-    margin: 2rem 2rem;
-    width: 1000px; 
+    width: 100%; 
 	height: 750px; 
 }
 
