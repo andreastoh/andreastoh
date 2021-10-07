@@ -938,6 +938,11 @@ img{max-width: 100%;
     font-size: 1rem;
 }
 
+.wow__link{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
 /*==================== PORTFOLIO ====================*/
 .portfolio__container {
   overflow: initial;
