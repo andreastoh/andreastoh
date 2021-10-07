@@ -180,6 +180,10 @@ body.scale-cv{
   column-gap: 2.5rem;
 }
 
+.scale-cv .profile__description{
+  font-size: 10px;
+}
+
 
 body{
   margin: 0 0 var(--header-height) 0;
