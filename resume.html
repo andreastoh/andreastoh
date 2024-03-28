@@ -1,400 +1,134 @@
+
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="author" content="Andreas Toh" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
-        <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VY9QV3VKK5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title></title>
 
-  gtag('config', 'G-VY9QV3VKK5');
-</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--========== BOX ICONS ==========-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
 
-        <!--========== CSS ==========-->
-        <link rel="stylesheet" href="assets/css/resume.css">
+<style>
 
-        <title>Andreas Toh Resume</title>
-    </head>
-    <body>
-        <!--========== HEADER ==========-->
-        <header class="l-header" id="header">
-            <nav class="nav bd-container">
-                <a href="#" class="nav__logo">Andreas Toh</a>
+body {
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">
-                                <i class="bx bx-home nav__icon"></i>Home
-                            </a>
-                        </li>
+	background-image: url('grunge_patterns.jpg');
+	background-attachment: fixed;
+	color: #333;
+}
 
-                        <li class="nav__item">
-                            <a href="#profile" class="nav__link">
-                                <i class="bx bx-user nav__icon"></i>Profile
-                            </a>
-                        </li>
+.box {
+	border-radius: 3px;
+	background: rgba(101, 101, 101, 0.7); margin: auto; padding: 12px;
+}
 
-                        <li class="nav__item">
-                            <a href="#education" class="nav__link">
-                                <i class="bx bx-book nav__icon"></i>Education
-                            </a>
-                        </li>
+.lightbox {
+	zoom: 1.5;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(10, 10, 10, 0.8);
+	text-align: center;
+	margin: auto;
 
-                        <li class="nav__item">
-                            <a href="#skills" class="nav__link">
-                                <i class="bx bx-receipt nav__icon"></i>Skills
-                            </a>
-                        </li>
+}
 
-                        <li class="nav__item">
-                            <a href="#experience" class="nav__link">
-                                <i class="bx bx-briefcase-alt nav__icon"></i>Experience
-                            </a>
-                        </li>
+div.horizontal {
+	display: flex;
+	justify-content: center;
+	height: 100%;
+}
 
-                        <li class="nav__item">
-                            <a href="#certificates" class="nav__link">
-                                <i class="bx bx-award nav__icon"></i>Certificates
-                            </a>
-                        </li>
+div.vertical {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+}
 
-                    </ul>
-                </div>
-                
-                <div class="nav_toggle" id="nav-toggle">
-                    <i class="bx bx-grid-alt"></i>
-                </div>
-            </nav>
-        </header>
+::-webkit-input-placeholder {
+   color: #955;
+   text-align: center;
+}
 
-        <main class="l-main bd-container">
-            <!-- All elements within this div, is generated in PDF -->
-            <div class="resume" id="area-cv">
-                <div class="resume__left">
-                    <!--========== HOME ==========-->
-                    <section class="home" id="home">
-                        <div class="home__container section bd-grid">
-                            <div class="home__data bd-grid">
-                                <img src="assets/img/profile_resume.jpg" alt="" class="home__img">
-                                
-                                <h1 class="home__title"><b>ANDREAS</b> TOH</h1>
-                                <h3 class="home__profession">Cybersecurity Engineer</h3>
+::-moz-placeholder {
+   color: #955;
+   text-align: center;
+}
+
+:-ms-input-placeholder {
+   color: #955;
+   text-align: center;
+}
+
+</style>
+
+<body>
+
+	<div id="loginbox" class="lightbox" >
+		<div class="horizontal">
+			<div class="vertical">
+				<div class="box">
+					<input style="margin: 16px; text-align: center;" id="password" type="password" placeholder="password" /> <br />
+					<button id="loginbutton" type="button">Enter</button>
+					<p id="wrongPassword" style="display: none">wrong password</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
-                                <!-- Button to download your CV saved in the pdf folder. Available for mobile. -->
-                                <div>
-                                    <a download="" href="assets/pdf/andreastoh_resume.pdf" class="home__button-movil">Download</a>
-                                </div>
-                            </div>
-                            <div class="home__address bd-grid">
-                                <span class="home__information">
-                                    <i class="bx bx-map home__icon"></i>Singapore, SG
-                                </span>
-                                <a href="https://www.linkedin.com/in/andreastoh/" target="_blank" class="home__link">
-                                <i class="bx bxl-linkedin-square home__icon"></i>linkedin.com/in/andreastoh
-                                </a>
-                                <a href="https://www.andreastoh.com/" target="_blank" class="home__link">
-                                    <i class="bx bx-globe home__icon"></i>andreastoh.com
-                                </a>
-                                
-                            </div>
-                        </div>
 
-                        <!-- Theme change button -->
-                        <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
-    
-                        <!-- Button to generate and download the pdf. Available for desktop. -->
-                        <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
-
-                    </section> 
-
-                    <!--========== SOCIAL ==========-->   
-                    <!--<section class="social section">
-                        <h2 class="section-title">Social</h2>
-
-                        <div class="social__container bd-grid">
-                            <a href="https://www.linkedin.com/in/andreastoh/" target="_blank" class="social__link">
-                                <i class="bx bxl-linkedin-square social__icon"></i>linkedin.com/in/andreastoh
-                                </a>
-                                <a href="https://github.com/andreastoh" target="_blank" class="social__link">
-                                    <i class="bx bxl-github social__icon"></i>github.com/andreastoh
-                                </a>
-                                <a href="https://www.andreastoh.com/" target="_blank" class="social__link">
-                                    <i class="bx bx-globe social__icon"></i>andreastoh.com
-                                </a>
-                            
-                        </div>
-
-                    </section>-->   
-
-                    <!--========== PROFILE ==========-->
-                    <section class="profile section" id="profile">
-                        <h2 class="section-title">Profile</h2>
-
-                        <p class="profile__description">As an innovative engineer with experience in cybersecurity and automation, Andreas is well-equipped to navigate the rapidly changing landscape of technology.</p>
-                        <br>
-                        <p class="profile__description">His deep technical knowledge in systems & network, combined with his excellent project management skills, make him well-suited for specializing in the implementation and operations of security solutions.</p>
-                        <br>
-                        <p class="profile__description">Along with his natural curiosity and desire to learn, Andreas is currently expanding his skillset by studying Offensive Security, Machine Learning, and German.</p>
-                        
-                    </section>
-                    
-                    <!--========== EDUCATION ==========-->
-                    <section class="education section" id="education">
-                        <h2 class="section-title">Education</h2>
-
-                        <div class="education__container bd-grid">
-                            <div class="education__content">
-                                <div class="education__time">
-                                    <span class="education__rounder"></span>
-                                    <span class="education__line"></span>
-                                </div>
-
-                                <div class="education__data bd-grid">
-                                    <h3 class="education__title">Bachelor of Engineering (Hons) in Electrical & Electronic Engineering with Minor in Business</h3>
-                                    <span class="education__studies">Nanyang Technological University</span>
-                                    <span class="education__year">2014 - 2017</span>
-                                </div>
-                            </div>
-
-                            <div class="education__content">
-                                <div class="education__time">
-                                    <span class="education__rounder"></span>
-                                </div>
-
-                                <div class="education__data bd-grid">
-                                    <h3 class="education__title">Diploma, Engineering with Business</h3>
-                                    <span class="education__studies">Singapore Polytechnic</span>
-                                    <span class="education__year">2009 - 2012</span>
-                                </div>
-                            </div>
-                        </div> 
-                    </section>
-
-                    <!--========== SKILLS  ==========-->
-                    <section class="skills section" id="skills">
-                        <h2 class="section-title">Skills</h2>
-
-                        <div class="skills__content bd-grid">
-                            <ul class="skills__data">
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span> Cybersecurity
-                                </li>
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span> SysAdmin
-                                </li>
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span> Automation
-                                </li>
-
-                            </ul>
-                            <ul class="skills__data">
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span> Integrity
-                                </li>
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span> Analytical
-                                </li>
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span> Adaptable
-                                </li>
-
-                            </ul>
-                        </div>
-                        
-                    </section>
-
-                    <!--========== LANGUAGES ==========-->
-                    <section class="languages section">
-                        <h2 class="section-title">Languages</h2>
-
-                        <div class="languages__container">
-                            <ul class="languages__content bd-grid">
-                                <li class="languages__name">
-                                    <p> English<br>
-                                    <span class="languages__subtitle">Native</span></p>
-                                </li>
-                                <li class="languages__name">
-                                    <p> Chinese<br>
-                                    <span class="languages__subtitle">Native</span></p>
-                                </li>
-                                <br>
-                            </ul>
-                        </div>
-                    </section>
-
-                </div>
-
-                <div class="resume__right">
-                    <!--========== EXPERIENCE ==========-->
-                    <section class="experience section" id="experience">
-                        <h2 class="section-title">Experience</h2>
-
-                        <div class="experience__container bd-grid">
-                            <div class="experience__content">
-                                <div class="experience__time">
-                                    <span class="experience__rounder"></span>
-                                    <span class="experience__line"></span>
-                                </div>
-                                
-                                <div class="experience__data bd-grid">
-                                    <h3 class="experience__title">IT SECURITY ENGINEER</h3>
-                                    <ul class="experience__info experience-grid">
-                                        <li class="experience__name">
-                                            <p>Partners Group<br>
-                                        </li>
-                                        <li class="experience__date">
-                                            <p>Feb 2020  - Present<br>
-                                        </li>
-                                    </ul>
-                                    <p class="experience__description">- Led projects in major security verticals including Endpoint Security, NetSec, IAM, InfoSec, Cloud Security and Email Security</p>
-                                    <p class="experience__description">- Designed and implemented a comprehensive vulnerability management solution to streamline the vulnerability lifecycle</p>  
-                                    <p class="experience__description">- Conducted tests and uncovered network vulnerabilities, and performed in-depth analysis of security-related monitoring events to identify and address potential threats</p>
-                                    <p class="experience__description">- Assisted in the development and maintenance of the company's SOC</p>
-                                    <p class="experience__description">- Conducted cyber awareness trainings and phishing campaign simulations for the company</p>
-                                    <p class="experience__description">- Planned and reviewed penetration testing & red teaming on internal systems</p>
-                                    <p class="experience__description">- Analyze security gaps and evaluate next-generation security tools to close the gaps</p>
-                                </div>
-                            </div>
-                            <div class="experience__content">
-                                <div class="experience__time">
-                                    <span class="experience__rounder"></span>
-                                    <span class="experience__line"></span>
-                                </div>
-                                
-                                <div class="experience__data bd-grid">
-                                    <h3 class="experience__title">SECURITY ENGINEER, NSOC</h3>
-                                    <ul class="experience__info experience-grid">
-                                        <li class="experience__name">
-                                            <p>Singtel<br>
-                                        </li>
-                                        <li class="experience__date">
-                                            <p>Jul 2019  - Jan 2020<br>
-                                        </li>
-                                    </ul>
-                                    <p class="experience__description">- Performed Tier 1 & 2 support, incident response and investigation of real-time security events for multiple business units using Splunk and SIEM tools</p>
-                                    <p class="experience__description">- Self-deployed a project management tool, CMDB, KMDB and Service Desk to correlate CVEs with assets for company-wide cybersecurity management</p>
-                                    <p class="experience__description">- Ensured the timely remediation of security weaknesses identified during VAPT</p>
-                                    <p class="experience__description">- Conducted updates of SecOps manuals, playbooks, and documentation</p>
-                                    <p class="experience__description">- Implemented, managed and onboarded servers to the SIEM - inclusive of development, tuning and optimization of use-cases and correlation rules</p>
-                                    <p class="experience__description">- Mentored two junior staff to take on security monitoring and analyst roles</p>
-                                </div>
-                            </div>
-                            <div class="experience__content">
-                                <div class="experience__time">
-                                    <span class="experience__rounder"></span>
-                                </div>
-                                
-                                <div class="experience__data bd-grid">
-                                    <h3 class="experience__title">ENGINEER, SERVICE OPERATIONS</h3>
-                                    <ul class="experience__info experience-grid">
-                                        <li class="experience__name">
-                                            <p>Singtel<br>
-                                        </li>
-                                        <li class="experience__date">
-                                            <p>Jul 2017  - Jun 2019<br>
-                                        </li>
-                                    </ul>
-                                    <p class="experience__description">- Responsible for Value-Added Services (location-based & eSIM-related) and security-related Operations Support Systems (TPAM, Firewalls and 2FA VPN)</p>
-                                    <p class="experience__description">- Provided 24/7 remote and on-site support, security hardening and resolution</p>
-                                    <p class="experience__description">- Administered 100+ servers and network devices with minimum 99.95% uptime</p>
-                                    <p class="experience__description">- Monitored system performance and metrics using open-source tools such as Telegraf, InfluxDB and Grafana and Elasticsearch, Logstash and Kibana.</p>
-                                    <p class="experience__description">- Increased productivity by identifying and automating processes using Automation tools such as Ansible and Microsoft Visual Basic for Applications</p>
-                                    <p class="experience__description">- Cybersecurity Representative, Incident Secretariat and Change Leader</p>
-                                </div>
-                            </div>
-                        </div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 
 
-                    </section>
+	 <script type="text/javascript" src="https://rawcdn.githack.com/chrisveness/crypto/7067ee62f18c76dd4a9d372a00e647205460b62b/sha1.js"></script>
 
-                    <!--========== CERTIFICATES ==========-->
-                    <section class="certificate section" id="certificates">
-                        <h2 class="section-title">Certificates</h2>
+	<script type="text/javascript">
+	"use strict";
 
-                        <div class="certificate__container bd-grid">
-                            <p class="certificate__description">&#8226;&nbsp;AWS Certified Security - Specialty</p>
-                        </div>
-                        <div class="certificate__container bd-grid">
-                            <p class="certificate__description">&#8226;&nbsp;AWS Certified Solutions Architect Associate</p>
-                        </div>
-                        <div class="certificate__container bd-grid">
-                            <p class="certificate__description">&#8226;&nbsp;Microsoft 365 Certified: Security Administrator Associate</p>
-                        </div>
-                        <div class="certificate__container bd-grid">
-                            <p class="certificate__description">&#8226;&nbsp;Red Hat Certified System Administrator</p>
-                        </div>
-                        <div class="certificate__container bd-grid">
-                            <p class="certificate__description">&#8226;&nbsp;Red Hat Certified Specialist in Ansible Automation</p>
-                        </div>
-                        <div class="certificate__container bd-grid">
-                            <p class="certificate__description">&#8226;&nbsp;Cisco Certified Specialist - Enterprise Advanced Infrastructure Implementation</p>
-                        </div>
-                        <div class="certificate__container bd-grid">
-                            <p class="certificate__description">&#8226;&nbsp;Cisco Certified Network Associate</p>
-                        </div>
-                        <div class="certificate__container bd-grid">
-                            <p class="certificate__description">&#8226;&nbsp;ITIL Foundation Certified in IT Service Management</p>
-                        </div>
-                        <div class="certificate__container bd-grid">
-                            <p class="certificate__description">&#8226;&nbsp;EC-Council Certified Ethical Hacker</p>
-                        </div>
-                        <div class="certificate__container bd-grid">
-                            <p class="certificate__description">&#8226;&nbsp;UiPath RPA Developer Advanced</p>
-                        </div>
-                        
-                    </section>
-                    
-                    <!--========== INTERESTS ==========-->
-                    <section class="interests section">
-                        <h2 class="section-title">Interests</h2>
 
-                        <div class="interests__container bd-grid">
-                            <div class="interests__content">
-                                <i class="bx bx-shield interests__icon"></i>
-                                <span class="interests__name">Cybersecurity</span>
-                            </div>
+	function loadPage(pwd) {
 
-                            <div class="interests__content">
-                                <i class="bx bx-bot interests__icon"></i>
-                                <span class="interests__name">Technology</span>
-                            </div>
+		var hash= pwd;
+		hash= Sha1.hash(pwd);
+		var url= hash + "/resume.html";
 
-                            <div class="interests__content">
-                                <i class="bx bx-cycling interests__icon"></i>
-                                <span class="interests__name">Fitness</span>
-                            </div>
+		$.ajax({
+			url : url,
+			dataType : "html",
+			success : function(data) {
 
-                            <div class="interests__content">
-                                <i class="bx bx-music interests__icon"></i>
-                                <span class="interests__name">Music</span>
-                            </div>
-                        </div>
-                        
-                    </section>
-                </div>
-            </div>        
-        </main>
+				window.location= url;
 
-        <!--========== SCROLL TOP ==========-->
-        <a href="#" class="scrolltop" id="scroll-top">
-            <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
-        </a>
+			},
+			error : function(xhr, ajaxOptions, thrownError) {
 
-        <!--========== HTML2PDF ==========-->
-        <script src="assets/js/html2pdf.bundle.min.js"></script>
 
-        <!--========== MAIN JS ==========-->
-        <script src="assets/js/resume.js"></script>
-    </body>
+				parent.location.hash= hash;
+
+				//$("#wrongPassword").show();
+				$("#password").attr("placeholder","wrong password");
+				$("#password").val("");
+			}
+		});
+	}
+
+
+	$("#loginbutton").on("click", function() {
+		loadPage($("#password").val());
+	});
+	$("#password").keypress(function(e) {
+		if (e.which == 13) {
+
+			loadPage($("#password").val());
+		}
+	});
+	$("#password").focus();
+
+	</script>
+
+</body>
 </html>
