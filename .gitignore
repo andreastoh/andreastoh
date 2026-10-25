@@ -1,0 +1,5 @@
+# macOS folder metadata
+.DS_Store
+
+# Design source files (keep locally, don't publish)
+*.psd

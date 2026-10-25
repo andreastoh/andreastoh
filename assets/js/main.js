@@ -200,7 +200,8 @@ themeButton.addEventListener('click', () => {
 
 
 /*==================== TYPED ANIMATION ====================*/
-var typed = new Typed(".typing", {
+// Only run on pages that have the typing element (the 404 page does not)
+if (document.querySelector(".typing")) new Typed(".typing", {
     strings: ["Hi, I am <br><b>Andreas</b>.", "你好，我是<br><b>卓彦豪</b>。", "こんにちは、私は<br><b>アンドレアスです</b>。", "Hallo, ich bin <br><b>Andreas</b>."],
     typeSpeed: 100,
     backSpeed: 60,
@@ -217,3 +218,19 @@ var typed = new Typed(".typing", {
 
 
 
+
+
+/*==================== KEYBOARD SUPPORT ====================*/
+// Icons and spans marked role="button" act like buttons for keyboard users
+document.querySelectorAll('[role="button"][tabindex="0"]').forEach(el => {
+    el.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault()
+            el.click()
+        }
+    })
+})
+
+/*==================== FOOTER YEAR ====================*/
+const yearEl = document.getElementById('year')
+if (yearEl) yearEl.textContent = new Date().getFullYear()
