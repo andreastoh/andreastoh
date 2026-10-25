@@ -2,13 +2,46 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="title" property="og:title" content="Andreas Toh" />
-<meta name="url" property="og:url" content="https://andreastoh.com" />
-<meta name="keywords" content="andreas, toh, andreastoh, technology, cybersecurity, resume, portfolio" />
-<meta name="description" property="og:description" content="Andreas Toh is an innovative engineer with experience in cybersecurity and automation who is eager to take on opportunities in the rapid pace of technological change." />
-<meta name="image" property="og:image" content="https://andreastoh.com/assets/img/andreasportfolio.png" />
-<meta name="author" property="author" content="Andreas Toh" />
 <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<title>Andreas Toh | Cybersecurity Engineer</title>
+<meta name="description" content="Andreas Toh is a Singapore-based Cybersecurity Engineer with experience in security tools, incident response, vulnerability management and automation." />
+<meta name="author" content="Andreas Toh" />
+<link rel="canonical" href="https://andreastoh.com/" />
+
+<!-- Open Graph / social sharing -->
+<meta property="og:type" content="profile" />
+<meta property="og:site_name" content="Andreas Toh" />
+<meta property="og:title" content="Andreas Toh | Cybersecurity Engineer" />
+<meta property="og:description" content="Andreas Toh is a Singapore-based Cybersecurity Engineer with experience in security tools, incident response, vulnerability management and automation." />
+<meta property="og:url" content="https://andreastoh.com/" />
+<meta property="og:image" content="https://andreastoh.com/assets/img/andreasportfolio.png" />
+<meta property="og:image:width" content="1006" />
+<meta property="og:image:height" content="679" />
+<meta property="og:image:alt" content="Preview of Andreas Toh's portfolio website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Andreas Toh | Cybersecurity Engineer" />
+<meta name="twitter:description" content="Singapore-based Cybersecurity Engineer with experience in security tools, incident response, vulnerability management and automation." />
+<meta name="twitter:image" content="https://andreastoh.com/assets/img/andreasportfolio.png" />
+
+<!-- Structured data: helps Google connect this site with your other profiles -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Andreas Toh",
+  "url": "https://andreastoh.com/",
+  "image": "https://andreastoh.com/assets/img/profile.jpg",
+  "jobTitle": "Cybersecurity Engineer",
+  "address": { "@type": "PostalAddress", "addressCountry": "SG" },
+  "knowsLanguage": ["English", "Chinese", "Japanese", "German"],
+  "sameAs": [
+    "https://www.linkedin.com/in/andreastoh/",
+    "https://github.com/andreastoh",
+    "https://www.youtube.com/channel/UC8nnvdP-AsICPzz7HF8V5Kg",
+    "https://open.spotify.com/artist/1EZELpgCuWKrlrWqyvRtob"
+  ]
+}
+</script>
 <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
 <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -33,14 +66,12 @@
 
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/style.css">
-
-        <title>Andreas Toh</title>
     </head>
     <body>
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
             <nav class="nav container">
-            	<a href="#" class="nav__logo"><img src="assets/img/andreas-logo.png"></a>
+            	<a href="#" class="nav__logo" aria-label="Andreas Toh, back to top"><img src="assets/img/andreas-logo.png" alt="Andreas Toh logo"></a>
 
             	<div class="nav__menu" id="nav-menu">
             		<ul class="nav__list grid">
@@ -75,13 +106,13 @@
             				</a>
             			</li>
             		</ul>
-                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                    <i class="uil uil-times nav__close" id="nav-close" role="button" tabindex="0" aria-label="Close menu"></i>
                 </div>
                 <div class="nav__btns">
                     <!-- Theme change button -->
-                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+                    <i class="uil uil-moon change-theme" id="theme-button" role="button" tabindex="0" aria-label="Toggle dark theme"></i>
                     
-                    <div class="nav__toggle" id="nav-toggle">
+                    <div class="nav__toggle" id="nav-toggle" role="button" tabindex="0" aria-label="Open menu">
                         <i class="uil uil-apps"></i>
                     </div>
                 </div>
@@ -96,18 +127,18 @@
                 <div class="home__container container grid">
                     <div class="home__content grid">
                         <div class="home__social">
-                            <a href="https://www.linkedin.com/in/andreastoh/" target="_blank" class="home__social-icon">
+                            <a href="https://www.linkedin.com/in/andreastoh/" target="_blank" rel="noopener" class="home__social-icon" aria-label="LinkedIn">
                                 <i class="uil uil-linkedin-alt"></i>
                             </a>
-                            <a href="https://github.com/andreastoh" target="_blank" class="home__social-icon">
+                            <a href="https://github.com/andreastoh" target="_blank" rel="noopener" class="home__social-icon" aria-label="GitHub">
                                 <i class="uil uil-github-alt"></i>
                             </a>
-                            <a href="https://www.youtube.com/channel/UC8nnvdP-AsICPzz7HF8V5Kg" target="_blank" class="home__social-icon">
+                            <a href="https://www.youtube.com/channel/UC8nnvdP-AsICPzz7HF8V5Kg" target="_blank" rel="noopener" class="home__social-icon" aria-label="YouTube">
                                 <i class="uil uil-youtube"></i>
                             </a>
                         </div>
                         <div class="home__img">
-                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <svg class="home__blob" role="img" aria-label="Photo of Andreas Toh" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <mask id="mask0" mask-type="alpha">
                                     <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
                                     130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
@@ -124,7 +155,7 @@
                             </svg>
                         </div>
                         <div class="home__data">
-                            <div class="home__typed"><span class="home__title typing"></span></div>
+                            <h1 class="home__typed"><span class="sr-only">Andreas Toh, Cybersecurity Engineer</span><span class="home__title typing" aria-hidden="true"></span></h1>
                             <h3 class="home__subtitle">Cybersecurity Engineer<br> 🛡️  🤖  💻</h3>
                             <p class="home__description">An innovative engineer with experience in cybersecurity and automation who is eager to take on opportunities in the rapid pace of technological change.</p>
                             <a href="#contact" class="button button--flex">
@@ -148,7 +179,7 @@
                 <span class="section__subtitle">Adaptable. Analytical. Driven. Curious. Focused.</span>
 
                 <div class="about__container container grid">
-                    <img src="assets/img/matterhorn.png" alt="" class="about_img">
+                    <img src="assets/img/matterhorn.png" alt="The Matterhorn in the Swiss Alps" class="about_img" loading="lazy">
 
                     <div class="about__data">
                         <p class="about__description">Andreas is a Cybersecurity Engineer, with deep technical knowledge in systems & network, and excellent project management skills, specialising in security tools implementation and operations.</p>
@@ -170,7 +201,7 @@
                             </div>
                         </div>
                         <div class="about__buttons">
-                            <a href="resume" target="_blank" class="neon-button button--flex">
+                            <a href="resume" target="_blank" rel="noopener" class="neon-button button--flex">
                                 Resume<i class="uil uil-download-alt button__icon"></i>
                             </a>
                         </div>
@@ -181,17 +212,17 @@
             <!--==================== SKILLS ====================-->
             <section class="skills section" id="skills">
                 <h2 class="section__title">Skills</h2>
-                <span class="section__subtitle">Get you hands dirty.</span>
+                <span class="section__subtitle">Get your hands dirty.</span>
 
                 <div class="skills__container container grid">
                     <div>
                         <!--==================== SKILLS 1 ====================-->
                         <div class="skills__content skills__open">
-                            <div class="skills__header">
+                            <div class="skills__header" role="button" tabindex="0">
                                 <i class="uil uil-shield-plus skills__icon"></i>
                                 
                                 <div>
-                                    <h1 class="skills__title">Cybersecurity</h1>
+                                    <h3 class="skills__title">Cybersecurity</h3>
                                     <span class="skills__subtitle">Non-exhaustive list of domains</span>
                                 </div>
 
@@ -243,11 +274,11 @@
 
                         <!--==================== SKILLS 2 ====================-->
                         <div class="skills__content skills__close">
-                            <div class="skills__header">
+                            <div class="skills__header" role="button" tabindex="0">
                                 <i class="uil uil-brackets-curly skills__icon"></i>
                                 
                                 <div>
-                                    <h1 class="skills__title">Web Development</h1>
+                                    <h3 class="skills__title">Web Development</h3>
                                     <span class="skills__subtitle">Self-taught as a hobby</span>
                                 </div>
 
@@ -301,11 +332,11 @@
                     <div>
                     <!--==================== SKILLS 3 ====================-->
                         <div class="skills__content skills__close">
-                            <div class="skills__header">
+                            <div class="skills__header" role="button" tabindex="0">
                                 <i class="uil uil-swatchbook skills__icon"></i>
                                 
                                 <div>
-                                    <h1 class="skills__title">System Administration</h1>
+                                    <h3 class="skills__title">System Administration</h3>
                                     <span class="skills__subtitle">The basic fundamentals</span>
                                 </div>
 
@@ -356,11 +387,11 @@
                         </div>
                     <!--==================== SKILLS 4 ====================-->
                         <div class="skills__content skills__close">
-                            <div class="skills__header">
+                            <div class="skills__header" role="button" tabindex="0">
                                 <i class="uil uil-video skills__icon"></i>
                                 
                                 <div>
-                                    <h1 class="skills__title">Content Creator</h1>
+                                    <h3 class="skills__title">Content Creator</h3>
                                     <span class="skills__subtitle">Just for fun!</span>
                                 </div>
 
@@ -428,58 +459,70 @@
                             <h3 class="wow__title">Professional <br> Certifications</h3>    
                         </div>
 
-                        <span class="button button--flex button--small button--link wow__button">
+                        <span class="button button--flex button--small button--link wow__button" role="button" tabindex="0">
                         View More
                         <i class="uil uil-arrow-right button__icon"></i>
                     </span>
 
                     <div class="wow__modal">
                         <div class="wow__modal-content">
-                            <h4 class="wow__modal-title">Professional Certifications<p class="wow__text">Click to verify.</p></h4>
-                            <i class="uil uil-times wow__modal-close"></i>
+                            <h4 class="wow__modal-title">Professional Certifications</h4>
+                            <p class="wow__text">Click to verify.</p>
+                            <i class="uil uil-times wow__modal-close" role="button" tabindex="0" aria-label="Close"></i>
 
                             <ul class="wow__modal-wow grid">
-
                                 <li class="wow__modal-service">
                                     <i class="uil uil-check-circle wow__modal-icon"></i>
-                                    <p><a href="https://www.credly.com/badges/6e6ecd6a-8673-4755-b06a-68d4c8254663" target="_blank" class="wow__cert"><b>AWS Certified</b> Security - Specialty<br><a class="wow__text"></a></a></p>
+                                    <p><b>ISC2</b> Certified Information Systems Security Professional (CISSP)</p>
+                                </li>
+                                <li class="wow__modal-service">
+                                    <i class="uil uil-check-circle wow__modal-icon"></i>
+                                    <p><b>CREST</b> Registered Penetration Tester (CRT)</p>
+                                </li>
+                                <li class="wow__modal-service">
+                                    <i class="uil uil-check-circle wow__modal-icon"></i>
+                                    <p><b>OffSec</b> Certified Professional (OSCP)</p>
+                                </li>
+                                <li class="wow__modal-service">
+                                    <i class="uil uil-check-circle wow__modal-icon"></i>
+                                    <p><a href="https://www.credly.com/badges/6e6ecd6a-8673-4755-b06a-68d4c8254663" target="_blank" rel="noopener" class="wow__cert"><b>AWS Certified</b> Security - Specialty</a></p>
                                 </li>
 
                                 <li class="wow__modal-service">
                                     <i class="uil uil-check-circle wow__modal-icon"></i>
-                                    <p><a href="https://www.credly.com/badges/e30c30cc-0dda-4651-bde7-c7aae3e8b5fb" target="_blank" class="wow__cert"><b>AWS Certified</b> Solutions Architect Associate<br><a class="wow__text"></a></a></p>
+                                    <p><a href="https://www.credly.com/badges/e30c30cc-0dda-4651-bde7-c7aae3e8b5fb" target="_blank" rel="noopener" class="wow__cert"><b>AWS Certified</b> Solutions Architect Associate</a></p>
                                 </li>
                                 <li class="wow__modal-service">
                                     <i class="uil uil-check-circle wow__modal-icon"></i>
-                                    <p><a href="https://www.credly.com/badges/17cc4ae6-72b4-427d-9af5-9795c7a53ede" target="_blank" class="wow__cert"><b>Microsoft 365 Certified</b> Security Administrator Associate<br><a class="wow__text"></a></a></p>
+                                    <p><a href="https://www.credly.com/badges/17cc4ae6-72b4-427d-9af5-9795c7a53ede" target="_blank" rel="noopener" class="wow__cert"><b>Microsoft 365 Certified</b> Security Administrator Associate</a></p>
                                 </li>
                                 <li class="wow__modal-service">
                                     <i class="uil uil-check-circle wow__modal-icon"></i>
-                                    <p><a href="https://www.credly.com/badges/9ebf6a5d-51fd-4227-b4ed-f7a89c1eb0ba" target="_blank" class="wow__cert"><b>Cisco Certified Specialist</b> Enterprise Advanced Infrastructure Implementation<br><a class="wow__text"></a></a></p>
+                                    <p><a href="https://www.credly.com/badges/9ebf6a5d-51fd-4227-b4ed-f7a89c1eb0ba" target="_blank" rel="noopener" class="wow__cert"><b>Cisco Certified Specialist</b> Enterprise Advanced Infrastructure Implementation</a></p>
                                 </li>
                                 <li class="wow__modal-service">
                                     <i class="uil uil-check-circle wow__modal-icon"></i>
-                                    <p><a href="https://www.credly.com/badges/b3ad53af-934f-4d92-ba04-99338d7c5fd6" target="_blank" class="wow__cert"><b>Cisco</b> Certified Network Associate<br><a class="wow__text"></a></a></p>
+                                    <p><a href="https://www.credly.com/badges/b3ad53af-934f-4d92-ba04-99338d7c5fd6" target="_blank" rel="noopener" class="wow__cert"><b>Cisco</b> Certified Network Associate</a></p>
                                 </li>
                                 <li class="wow__modal-service">
                                     <i class="uil uil-check-circle wow__modal-icon"></i>
-                                    <p><a href="https://rhtapps.redhat.com/certifications/badge/verify/3M5SISB77KBCTVUQYZQVHQSFPYAEQU3CUPSQX2KSDXT6RW46LQ3T7ULZ55KZZ56SKO7EQ3ETTLYZQ4U5NQYTCNA62RUWOCM34WWBUYQ=" target="_blank" class="wow__cert"><b>Red Hat</b> Certified System Administrator<br><a class="wow__text">Credential-ID: 180-120-719</a></a></p>
+                                    <p><a href="https://rhtapps.redhat.com/certifications/badge/verify/3M5SISB77KBCTVUQYZQVHQSFPYAEQU3CUPSQX2KSDXT6RW46LQ3T7ULZ55KZZ56SKO7EQ3ETTLYZQ4U5NQYTCNA62RUWOCM34WWBUYQ=" target="_blank" rel="noopener" class="wow__cert"><b>Red Hat</b> Certified System Administrator</a><br><span class="wow__text">Credential-ID: 180-120-719</span></p>
                                 </li>
                                 <li class="wow__modal-service">
                                     <i class="uil uil-check-circle wow__modal-icon"></i>
-                                    <p><a href="https://rhtapps.redhat.com/certifications/badge/verify/3M5SISB77KBCTVUQYZQVHQSFPYAEQU3CUPSQX2KSDXT6RW46LQ34UFHA6EGV4MX6OEQWWNEDUIWXWPUWTPNOZCAXTQD32BJ2PLFPHS3STVWDCMJUD3KGSZYJTPS2YGTCOKOWYMJRGQPNI2LHBGN6LLA2MI======" target="_blank" class="wow__cert"><b>Red Hat</b> Certified Specialist in Ansible Automation<br><a class="wow__text">Credential-ID: 180-120-719</a></a></p>
+                                    <p><a href="https://rhtapps.redhat.com/certifications/badge/verify/3M5SISB77KBCTVUQYZQVHQSFPYAEQU3CUPSQX2KSDXT6RW46LQ34UFHA6EGV4MX6OEQWWNEDUIWXWPUWTPNOZCAXTQD32BJ2PLFPHS3STVWDCMJUD3KGSZYJTPS2YGTCOKOWYMJRGQPNI2LHBGN6LLA2MI======" target="_blank" rel="noopener" class="wow__cert"><b>Red Hat</b> Certified Specialist in Ansible Automation</a><br><span class="wow__text">Credential-ID: 180-120-719</span></p>
                                 </li>
                                 <li class="wow__modal-service">
                                     <i class="uil uil-check-circle wow__modal-icon"></i>
-                                    <p><a href="https://aspen.eccouncil.org/Verify" target="_blank" class="wow__cert"><b>EC-Council</b> Certified Ethical Hacker<br><a class="wow__text">Credential-ID: ECC8129074635</a></a></p>
+                                    <p><a href="https://aspen.eccouncil.org/Verify" target="_blank" rel="noopener" class="wow__cert"><b>EC-Council</b> Certified Ethical Hacker</a><br><span class="wow__text">Credential-ID: ECC8129074635</span></p>
                                 </li>
                                 <li class="wow__modal-service">
                                     <i class="uil uil-check-circle wow__modal-icon"></i>
-                                    <p><b>UiPath</b> RPA Developer Advanced<br><a class="wow__text">Credential-ID: 474157119824324299</a></p>
+                                    <p><b>UiPath</b> RPA Developer Advanced<br><span class="wow__text">Credential-ID: 474157119824324299</span></p>
                                 </li>
                                 <li class="wow__modal-service">
                                     <i class="uil uil-check-circle wow__modal-icon"></i>
-                                    <p><a href="https://www.axelos.com/successful-candidates-register" target="_blank" class="wow__cert"><b>ITIL</b> Foundation Certified in IT Service Management<br><a class="wow__text">Credential-ID: GR750498060AT</a></a></p>
+                                    <p><a href="https://www.axelos.com/successful-candidates-register" target="_blank" rel="noopener" class="wow__cert"><b>ITIL</b> Foundation Certified in IT Service Management</a><br><span class="wow__text">Credential-ID: GR750498060AT</span></p>
                                 </li>
                                 <li class="wow__modal-service">
                                     <i class="uil uil-check-circle wow__modal-icon"></i>
@@ -496,7 +539,7 @@
                             <h3 class="wow__title"><br>Languages</h3>    
                         </div>
 
-                        <span class="button button--flex button--small button--link wow__button">
+                        <span class="button button--flex button--small button--link wow__button" role="button" tabindex="0">
                         View More
                         <i class="uil uil-arrow-right button__icon"></i>
                     </span>
@@ -504,28 +547,28 @@
                     <div class="wow__modal">
                         <div class="wow__modal-content">
                             <h4 class="wow__modal-title">Languages</h4>
-                            <i class="uil uil-times wow__modal-close"></i>
+                            <i class="uil uil-times wow__modal-close" role="button" tabindex="0" aria-label="Close"></i>
 
                             <ul class="wow__modal-wow grid">
                                 <li class="wow__modal-service">
                                     <i class="uil uil-letter-english-a wow__modal-icon"></i>
-                                    <img src="assets/img/gb.svg" class="wow__flag">
-                                    <p>&nbsp;<b>English</b> - <a class="wow__text">Native or bilingual proficiency</a><br></p>
+                                    <img src="assets/img/gb.svg" class="wow__flag" alt="">
+                                    <p>&nbsp;<b>English</b> - <span class="wow__text">Native or bilingual proficiency</span><br></p>
                                 </li>
                                 <li class="wow__modal-service">
                                     <i class="uil uil-letter-chinese-a wow__modal-icon"></i>
-                                    <img src="assets/img/cn.svg" class="wow__flag">
-                                    <p>&nbsp;<b>Chinese, 话语</b> - <a class="wow__text">Native or bilingual proficiency</a></p>
+                                    <img src="assets/img/cn.svg" class="wow__flag" alt="">
+                                    <p>&nbsp;<b>Chinese, 中文</b> - <span class="wow__text">Native or bilingual proficiency</span></p>
                                 </li>
                                 <li class="wow__modal-service">
                                     <i class="uil uil-letter-japanese-a wow__modal-icon"></i>
-                                    <img src="assets/img/jp.svg" class="wow__flag">
-                                    <p>&nbsp;<b>Japanese, 日本語</b> - <a class="wow__text">Elementary proficiency</a></p>
+                                    <img src="assets/img/jp.svg" class="wow__flag" alt="">
+                                    <p>&nbsp;<b>Japanese, 日本語</b> - <span class="wow__text">Elementary proficiency</span></p>
                                 </li>
                                 <li class="wow__modal-service">
-                                    <i class="uil uil-letter-english-a wow__modal-icon"></i>
-                                    <img src="assets/img/de.svg" class="wow__flag">
-                                    <p>&nbsp;<b>German, Deutsch</b> - <a class="wow__text">Elementary proficiency</a></p>
+                                    <i class="uil uil-globe wow__modal-icon"></i>
+                                    <img src="assets/img/de.svg" class="wow__flag" alt="">
+                                    <p>&nbsp;<b>German, Deutsch</b> - <span class="wow__text">Elementary proficiency</span></p>
                                 </li>
                             </ul>
                         </div>
@@ -538,7 +581,7 @@
                             <h3 class="wow__title">Hobbies & <br> Interests</h3>    
                         </div>
 
-                        <span class="button button--flex button--small button--link wow__button">
+                        <span class="button button--flex button--small button--link wow__button" role="button" tabindex="0">
                         View More
                         <i class="uil uil-arrow-right button__icon"></i>
                     </span>
@@ -546,38 +589,38 @@
                     <div class="wow__modal">
                         <div class="wow__modal-content">
                             <h4 class="wow__modal-title">Hobbies & Interests</h4>
-                            <i class="uil uil-times wow__modal-close"></i>
+                            <i class="uil uil-times wow__modal-close" role="button" tabindex="0" aria-label="Close"></i>
 
                             <ul class="wow__modal-wow grid">
                                 <li class="wow__modal-service">
                                     <i class="uil uil-heart wow__modal-icon"></i>
-                                    <p>Technology 🤖 💻 🚗 <br><a class="wow__text">Cybersecurity | Machine Learning | Automation | Blockchain</a></p>
+                                    <p>Technology 🤖 💻 🚗 <br><span class="wow__text">Cybersecurity | Machine Learning | Automation | Blockchain</span></p>
                                 </li>
                                 <li class="wow__modal-service">
                                     <i class="uil uil-heart wow__modal-icon"></i>
-                                    <p>Triathlon 🏊🏻 🚴🏻 🏃🏻 <br><a class="wow__text">I completed an </a><a href="https://feathersprod.blob.core.windows.net/api-public/F1B1CD93-E7FF-4662-817C-00BCF79FA01E.pdf" target="_blank" class="wow__ironman"><b>IRONMAN</b></a><a class="wow__text"> Triathlon in 12:00:00.</a></p>
+                                    <p>Triathlon 🏊🏻 🚴🏻 🏃🏻 <br><span class="wow__text">I completed an </span><a href="https://feathersprod.blob.core.windows.net/api-public/F1B1CD93-E7FF-4662-817C-00BCF79FA01E.pdf" target="_blank" rel="noopener" class="wow__ironman"><b>IRONMAN</b></a><span class="wow__text"> Triathlon in 12:00:00.</span></p>
                                 </li>
                                 <li class="wow__modal-service">
                                     <i class="uil uil-heart wow__modal-icon"></i>
-                                    <p><a href="music" class="wow__link">Music</a> 🎧 🎸 🎵 <br><a class="wow__text">Check out my band, <b>Blank Shot</b>, on </a><a href="https://open.spotify.com/artist/1EZELpgCuWKrlrWqyvRtob" target="_blank" class="wow__spotify"><b>Spotify!</b></a></p> 
+                                    <p><a href="music" class="wow__link">Music</a> 🎧 🎸 🎵 <br><span class="wow__text">Check out my band, <b>Blank Shot</b>, on </span><a href="https://open.spotify.com/artist/1EZELpgCuWKrlrWqyvRtob" target="_blank" rel="noopener" class="wow__spotify"><b>Spotify!</b></a></p> 
                                 </li>
                                 <li class="wow__modal-service">
                                     <i class="uil uil-heart wow__modal-icon"></i>
-                                    <p>Travel ✈️ 🌴 ☀️ <br><a class="wow__text">I love exploring the world. View my memories on </a><a href="https://www.youtube.com/channel/UC8nnvdP-AsICPzz7HF8V5Kg" target="_blank" class="wow__ironman"><b>YouTube</b></a>.</p> 
+                                    <p>Travel ✈️ 🌴 ☀️ <br><span class="wow__text">I love exploring the world. View my memories on </span><a href="https://www.youtube.com/channel/UC8nnvdP-AsICPzz7HF8V5Kg" target="_blank" rel="noopener" class="wow__ironman"><b>YouTube</b></a>.</p> 
                                 </li>
                                 <li class="wow__modal-service">
                                     <i class="uil uil-heart wow__modal-icon"></i>
-                                    <p>Space 🚀 ⭐ 🌓 <br><a class="wow__text">Astronomy & the Universe just intrigues me!</a></p>
+                                    <p>Space 🚀 ⭐ 🌓 <br><span class="wow__text">Astronomy & the Universe just intrigues me!</span></p>
                                 </li>
                                 <li class="wow__modal-service">
                                     <i class="uil uil-heart wow__modal-icon"></i>
-                                    <p>Football ⚽ 🚩 🔱 <br><a class="wow__text">Glory Glory </a><a class="wow__ironman"><b>Man United 😈 </b></a>&nbsp;!</p>
+                                    <p>Football ⚽ 🚩 🔱 <br><span class="wow__text">Glory Glory </span><span class="wow__ironman"><b>Man United 😈 </b></span>&nbsp;!</p>
                                 </li>
                                 <li class="wow__modal-service">
                                     <i class="uil uil-newspaper wow__modal-icon"></i>
-                                    <p>Features <br><a class="wow__text">🔥&ensp;Fitness & diet on </a><a href="https://www.straitstimes.com/sport/hotbods-andreas-toh-25-it-engineer" target="_blank" class="wow__st"><b>The Straits Times</b></a><a class="wow__text"> Hot Bods.</a>
-                                    <br><a class="wow__text">🎤&ensp;My interview on running with <a href="https://www.prischew.com/sports/running/train-consistently-and-keep-the-passion-for-running-alive-urges-sub-17-mins-5km-runner-andreas-toh/" target="_blank" class="wow__pc"><b>Pris Chew Dot Com</b></a>.</a>
-                                    <br><a class="wow__text">🌟&ensp;Blank Shot, winners of Hard Rock Rising on <a href="https://www.bandwagon.asia/articles/do-band-competitions-really-benefit-acts-we-ask-the-winners" target="_blank" class="wow__bw"><b>bandwagon</b></a>.</a>
+                                    <p>Features <br><span class="wow__text">🔥&ensp;Fitness & diet on </span><a href="https://www.straitstimes.com/sport/hotbods-andreas-toh-25-it-engineer" target="_blank" rel="noopener" class="wow__st"><b>The Straits Times</b></a><span class="wow__text"> Hot Bods.</span>
+                                    <br><span class="wow__text">🎤&ensp;My interview on running with <a href="https://www.prischew.com/sports/running/train-consistently-and-keep-the-passion-for-running-alive-urges-sub-17-mins-5km-runner-andreas-toh/" target="_blank" rel="noopener" class="wow__pc"><b>Pris Chew Dot Com</b></a>.</span>
+                                    <br><span class="wow__text">🌟&ensp;Blank Shot, winners of Hard Rock Rising on <a href="https://www.bandwagon.asia/articles/do-band-competitions-really-benefit-acts-we-ask-the-winners" target="_blank" rel="noopener" class="wow__bw"><b>bandwagon</b></a>.</span>
                                     </p>
                                 </li>
                             </ul>
@@ -590,18 +633,18 @@
             <!--==================== PORTFOLIO ====================-->
             <section class="portfolio section" id="portfolio">
                 <h2 class="section__title">Portfolio</h2>
-                <span class="section__subtitle">My previous & currnet work</span>
+                <span class="section__subtitle">My previous & current work</span>
 
                 <div class="portfolio__container container swiper-container">
                     <div class="swiper-wrapper">
                     <!--==================== PORTFOLIO 1 ====================-->
                     <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/portfolio1.png" alt="" class="portfolio__img">
+                        <img src="assets/img/portfolio1.png" alt="Michael Toh Photography website" class="portfolio__img" loading="lazy">
 
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Michael Toh Photography</h3>
                             <p class="portfolio__description">Michael Toh is a freelance photographer living in the vibrant city island of Singapore. His interest areas include landscape, wildlife, events, portraiture and still-life amongst many others.</p>
-                            <a href="https://michaeltohphotography.com/" target="_blank" class="button button--flex button--small portfolio__button">
+                            <a href="https://michaeltohphotography.com/" target="_blank" rel="noopener" class="button button--flex button--small portfolio__button">
                                 See here
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
@@ -610,12 +653,12 @@
 
                     <!--==================== PORTFOLIO 2 ====================-->
                     <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/portfolio2.png" alt="" class="portfolio__img">
+                        <img src="assets/img/portfolio2.png" alt="Mediamatic Systems website" class="portfolio__img" loading="lazy">
 
                         <div class="portfolio__data">
-                            <h3 class="portfolio__title">Medimatic Systems</h3>
+                            <h3 class="portfolio__title">Mediamatic Systems</h3>
                             <p class="portfolio__description">Mediamatic Systems International provides professional broadcast systems design and integration services for broadcast television, IPTV, and worship facilities.</p>
-                            <a href="https://www.mediamatic-sg.com/" target="_blank" class="button button--flex button--small portfolio__button">
+                            <a href="https://www.mediamatic-sg.com/" target="_blank" rel="noopener" class="button button--flex button--small portfolio__button">
                                 See here
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
@@ -624,12 +667,12 @@
 
                     <!--==================== PORTFOLIO 3 ====================-->
                     <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+                        <img src="assets/img/portfolio3.jpg" alt="ATTIX 3D Sound System device" class="portfolio__img" loading="lazy">
 
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">ATTIX 3D Sound System</h3>
                             <p class="portfolio__description">One-of-a-kind device that engages its listener into a cacophony of illustrative sounds.</p>
-                            <a href="https://github.com/andreastoh/3D-audio-project/wiki" target="_blank" class="button button--flex button--small portfolio__button">
+                            <a href="https://github.com/andreastoh/3D-audio-project/wiki" target="_blank" rel="noopener" class="button button--flex button--small portfolio__button">
                                 Check it out on Github
                                 <i class="uil uil-github-alt button__icon"></i>
                             </a>
@@ -661,7 +704,7 @@
                             </a>
                         </div>
 
-                        <img src="assets/img/project.png" alt="" class="project__img">
+                        <img src="assets/img/project.png" alt="" class="project__img" loading="lazy">
                     </div>
                 </div>
 
@@ -679,7 +722,7 @@
                         <div class="testimonial__content swiper-slide">
                             <div class="testimonial__data">
                                 <div class="testimonial__header">
-                                    <img src="assets/img/testimonial1.png" alt="" class="testimonial__img">
+                                    <img src="assets/img/testimonial1.png" alt="Michael T." class="testimonial__img" loading="lazy">
 
                                     <div>
                                         <h3 class="testimonial__name">Michael T.</h3>
@@ -688,7 +731,7 @@
                                 </div>
 
                                 <div>
-                                    <p>⭐⭐⭐⭐⭐<p>
+                                    <p role="img" aria-label="5 out of 5 stars">⭐⭐⭐⭐⭐</p>
                                 </div>
                             </div>
 
@@ -700,7 +743,7 @@
                         <div class="testimonial__content swiper-slide">
                             <div class="testimonial__data">
                                 <div class="testimonial__header">
-                                    <img src="assets/img/testimonial2.png" alt="" class="testimonial__img">
+                                    <img src="assets/img/testimonial2.png" alt="Sebastian A." class="testimonial__img" loading="lazy">
 
                                     <div>
                                         <h3 class="testimonial__name">Sebastian A.</h3>
@@ -709,7 +752,7 @@
                                 </div>
 
                                 <div>
-                                    <p>⭐⭐⭐⭐⭐<p>
+                                    <p role="img" aria-label="5 out of 5 stars">⭐⭐⭐⭐⭐</p>
                                 </div>
                             </div>
 
@@ -721,7 +764,7 @@
                         <div class="testimonial__content swiper-slide">
                             <div class="testimonial__data">
                                 <div class="testimonial__header">
-                                    <img src="assets/img/testimonial3.jpeg" alt="" class="testimonial__img">
+                                    <img src="assets/img/testimonial3.jpeg" alt="Trisillia L." class="testimonial__img" loading="lazy">
 
                                     <div>
                                         <h3 class="testimonial__name">Trisillia L.</h3>
@@ -730,11 +773,11 @@
                                 </div>
 
                                 <div>
-                                    <p>⭐⭐⭐⭐⭐<p>
+                                    <p role="img" aria-label="5 out of 5 stars">⭐⭐⭐⭐⭐</p>
                                 </div>
                             </div>
 
-                            <p class="testimonial__description">Andreas was an excellent teacher who taught me how to set up a webpage using HTML, CSS and JavaScript. Check out my website at <a href="https://trisillialim.com" target="_blank" class="testimonial__link">trisillialim.com</a>!
+                            <p class="testimonial__description">Andreas was an excellent teacher who taught me how to set up a webpage using HTML, CSS and JavaScript. Check out my website at <a href="https://trisillialim.com" target="_blank" rel="noopener" class="testimonial__link">trisillialim.com</a>!
                             </p>
                         </div>
                     </div>
@@ -749,7 +792,7 @@
             <!--==================== CONTACT ME ====================-->
             <section class="contact section" id="contact">
                 <h2 class="section__title">Contact Me</h2>
-                <span class=section__subtitle>Get in touch</span>
+                <span class="section__subtitle">Get in touch</span>
 
                 <div class="contact__container container grid">
                     <div>
@@ -759,7 +802,7 @@
 
                             <div>
                                 <h3 class="contact__title">Email Me</h3>
-                                <span class="contact__subtitle">hello@andreastoh.com</span>
+                                <a href="mailto:hello@andreastoh.com" class="contact__subtitle">hello@andreastoh.com</a>
                             </div>
                         </div>
 
@@ -776,23 +819,23 @@
                     <form class="contact__form grid" action="https://formsubmit.co/andreastoh@pm.me" method="POST">
                         <div class="contact__inputs grid">
                             <div class="contact__content">
-                                <label for="" class="contact__label">Name</label>
-                                <input type="text" name="name" class="contact__input" required>
+                                <label for="contact-name" class="contact__label">Name</label>
+                                <input type="text" name="name" id="contact-name" class="contact__input" autocomplete="name" required>
                             </div>
                             <div class="contact__content">
-                                <label for="" class="contact__label">Email</label>
-                                <input type="email" name="email" class="contact__input" required>
+                                <label for="contact-email" class="contact__label">Email</label>
+                                <input type="email" name="email" id="contact-email" class="contact__input" autocomplete="email" required>
                             </div>
                         </div>
                         <div class="contact__content">
-                            <label for="" class="contact__label">Message</label>
-                            <textarea name="message" id="" cols="0" rows="7" class="contact__input" required></textarea>
+                            <label for="contact-message" class="contact__label">Message</label>
+                            <textarea name="message" id="contact-message" cols="0" rows="7" class="contact__input" required></textarea>
                             <input type="hidden" name="_next" value="https://andreastoh.com">
-                            <input type="text" name="_honey" style="display:none">                           
+                            <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">                           
                         </div>
                         
                         <div>
-                                <button class="button button--flex contact__send">
+                                <button type="submit" class="button button--flex contact__send">
                                 Send
                                 <i class="uil uil-message button__icon"></i>
                             </button>
@@ -807,7 +850,7 @@
             <div class="footer__bg">
                 <div class="footer__container container grid">
                     <div>
-                        <h1 class="footer__title">Andreas Toh</h1>
+                        <p class="footer__title">Andreas Toh</p>
                         <span class="footer__subtitle">Cybersecurity Engineer</span>
                     </div>
 
@@ -827,25 +870,25 @@
                     </ul>
 
                     <div class="footer__socials">
-                        <a href="https://www.linkedin.com/in/andreastoh/" target="_blank" class="footer__social">
+                        <a href="https://www.linkedin.com/in/andreastoh/" target="_blank" rel="noopener" class="footer__social" aria-label="LinkedIn">
                                 <i class="uil uil-linkedin-alt"></i>
                             </a>
 
-                            <a href="https://github.com/andreastoh" target="_blank" class="footer__social">
+                            <a href="https://github.com/andreastoh" target="_blank" rel="noopener" class="footer__social" aria-label="GitHub">
                                 <i class="uil uil-github-alt"></i>
                             </a>
-                            <a href="https://www.youtube.com/channel/UC8nnvdP-AsICPzz7HF8V5Kg" target="_blank" class="footer__social">
+                            <a href="https://www.youtube.com/channel/UC8nnvdP-AsICPzz7HF8V5Kg" target="_blank" rel="noopener" class="footer__social" aria-label="YouTube">
                                 <i class="uil uil-youtube"></i>
                             </a>
                         </div>
                 </div>  
 
-                <p class="footer__copy">&#169; Andreas Toh. All rights reserved.</p>              
+                <p class="footer__copy">&#169; <span id="year">2026</span> Andreas Toh. All rights reserved.</p>              
             </div>            
         </footer>
         
         <!--==================== SCROLL TOP ====================-->
-        <a href="#" class="scrollup" id="scroll-up">
+        <a href="#" class="scrollup" id="scroll-up" aria-label="Back to top">
             <i class="uil uil-arrow-up scrollup__icon"></i>
         </a>
 

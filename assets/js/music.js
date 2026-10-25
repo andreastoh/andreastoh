@@ -1,21 +1,27 @@
-function showImages(el) {
-    var windowHeight = jQuery( window ).height();
-    $(el).each(function(){
-        var thisPos = $(this).offset().top;
-
-        var topOfWindow = $(window).scrollTop();
-        if (topOfWindow + windowHeight - 200 > thisPos ) {
-            $(this).addClass("fadeIn");
+// Fade in each photo (.star) once it scrolls into view
+function showImages() {
+    const trigger = window.innerHeight - 200;
+    document.querySelectorAll('.star:not(.fadeIn)').forEach(img => {
+        if (img.getBoundingClientRect().top < trigger) {
+            img.classList.add('fadeIn');
         }
     });
 }
 
-// if the image in the window of browser when the page is loaded, show that image
-$(document).ready(function(){
-    showImages('.star');
-});
+showImages();
+window.addEventListener('scroll', showImages, { passive: true });
+window.addEventListener('load', showImages);
 
-// if the image in the window of browser when scrolling the page, show that image
-$(window).scroll(function() {
-    showImages('.star');
-});
+// Mobile menu toggle
+const menu = document.querySelector('.menu');
+const navbar = document.querySelector('.navbar');
+if (menu && navbar) {
+    menu.addEventListener('click', e => {
+        e.preventDefault();
+        navbar.classList.toggle('active');
+    });
+}
+
+// Footer year
+const yearEl = document.getElementById('year');
+if (yearEl) yearEl.textContent = new Date().getFullYear();

@@ -1,10 +1,13 @@
-
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
-<title></title>
-
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resume | Andreas Toh</title>
+<meta name="description" content="Password-protected resume of Andreas Toh, Cybersecurity Engineer." />
+<!-- Login page only: keep it out of search results -->
+<meta name="robots" content="noindex" />
+<link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
 
 </head>
 
@@ -71,7 +74,7 @@ div.vertical {
 		<div class="horizontal">
 			<div class="vertical">
 				<div class="box">
-					<input style="margin: 16px; text-align: center;" id="password" type="password" placeholder="password" /> <br />
+					<input style="margin: 16px; text-align: center;" id="password" type="password" placeholder="password" aria-label="Password" autocomplete="current-password" /> <br />
 					<button id="loginbutton" type="button">Enter</button>
 					<p id="wrongPassword" style="display: none">wrong password</p>
 				</div>
