@@ -1,5 +1,4 @@
 /*==================== GOOGLE FONTS ====================*/
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600&display=swap');
 
 /*==================== VARIABLES CSS ====================*/
 :root {
@@ -85,10 +84,10 @@ body.dark-theme{
 }
 
 body>main>section>div>div>div>div>div>span>a>img.school-icon.sp__icon{
-    content: url("../img/sp.png");
+    content: url("../img/sp.webp");
 }
 body.dark-theme>main>section>div>div>div>div>div>span>a>img.school-icon.sp__icon{
-    content: url("../img/sp-white.png");
+    content: url("../img/sp-white.webp");
 }
 body>main>section>div>div>div>div>div>span>a>img.school-icon.btbu__icon{
     content: url("../img/btbu.png");
@@ -100,7 +99,7 @@ body>main>section>div>div>div>div>div>span>a>img.school-icon.ntu__icon{
     content: url("../img/ntu.png");
 }
 body.dark-theme>main>section>div>div>div>div>div>span>a>img.school-icon.ntu__icon{
-    content: url("../img/ntu-white.png");
+    content: url("../img/ntu-white.webp");
 }
 
 body>main>section>div>div>div>div>div>span>a>img.company-icon.mediamatic__icon{
@@ -110,16 +109,16 @@ body.dark-theme>main>section>div>div>div>div>div>span>a>img.company-icon.mediama
     content: url("../img/mediamatic-white.png");
 }
 body>main>section>div>div>div>div>div>span>a>img.company-icon.singtel__icon{
-    content: url("../img/singtel.png");
+    content: url("../img/singtel.webp");
 }
 body.dark-theme>main>section>div>div>div>div>div>span>a>img.company-icon.singtel__icon{
-    content: url("../img/singtel-white.png");
+    content: url("../img/singtel-white.webp");
 }
 body>main>section>div>div>div>div>div>span>a>img.company-icon.pg__icon{
-    content: url("../img/pg.png");
+    content: url("../img/pg.webp");
 }
 body.dark-theme>main>section>div>div>div>div>div>span>a>img.company-icon.pg__icon{
-    content: url("../img/pg-white.png");
+    content: url("../img/pg-white.webp");
 }
 
 

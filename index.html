@@ -27,18 +27,59 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Andreas Toh",
-  "url": "https://andreastoh.com/",
-  "image": "https://andreastoh.com/assets/img/profile.jpg",
-  "jobTitle": "Cybersecurity Engineer",
-  "address": { "@type": "PostalAddress", "addressCountry": "SG" },
-  "knowsLanguage": ["English", "Chinese", "Japanese", "German"],
-  "sameAs": [
-    "https://www.linkedin.com/in/andreastoh/",
-    "https://github.com/andreastoh",
-    "https://www.youtube.com/channel/UC8nnvdP-AsICPzz7HF8V5Kg",
-    "https://open.spotify.com/artist/1EZELpgCuWKrlrWqyvRtob"
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://andreastoh.com/#website",
+      "name": "Andreas Toh",
+      "alternateName": "andreastoh.com",
+      "url": "https://andreastoh.com/",
+      "publisher": { "@id": "https://andreastoh.com/#person" }
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://andreastoh.com/#profilepage",
+      "url": "https://andreastoh.com/",
+      "name": "Andreas Toh | Cybersecurity Engineer",
+      "isPartOf": { "@id": "https://andreastoh.com/#website" },
+      "mainEntity": { "@id": "https://andreastoh.com/#person" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://andreastoh.com/#person",
+      "name": "Andreas Toh",
+      "url": "https://andreastoh.com/",
+      "image": "https://andreastoh.com/assets/img/profile.jpg",
+      "jobTitle": "Cybersecurity Engineer",
+      "description": "Singapore-based Cybersecurity Engineer specialising in security tools implementation and operations, incident response, vulnerability management and automation.",
+      "address": { "@type": "PostalAddress", "addressCountry": "SG" },
+      "knowsLanguage": ["English", "Chinese", "Japanese", "German"],
+      "knowsAbout": [
+        "Cybersecurity",
+        "Security Incident Response",
+        "Vulnerability Management",
+        "Intrusion Detection",
+        "Penetration Testing",
+        "Security Automation",
+        "Amazon Web Services",
+        "System Administration",
+        "Web Development"
+      ],
+      "hasCredential": [
+        { "@type": "EducationalOccupationalCredential", "name": "Certified Information Systems Security Professional (CISSP)", "credentialCategory": "certification", "recognizedBy": { "@type": "Organization", "name": "ISC2" } },
+        { "@type": "EducationalOccupationalCredential", "name": "CREST Registered Penetration Tester (CRT)", "credentialCategory": "certification", "recognizedBy": { "@type": "Organization", "name": "CREST" } },
+        { "@type": "EducationalOccupationalCredential", "name": "OffSec Certified Professional (OSCP)", "credentialCategory": "certification", "recognizedBy": { "@type": "Organization", "name": "OffSec" } },
+        { "@type": "EducationalOccupationalCredential", "name": "AWS Certified Security - Specialty", "credentialCategory": "certification", "recognizedBy": { "@type": "Organization", "name": "Amazon Web Services" }, "url": "https://www.credly.com/badges/6e6ecd6a-8673-4755-b06a-68d4c8254663" },
+        { "@type": "EducationalOccupationalCredential", "name": "AWS Certified Solutions Architect - Associate", "credentialCategory": "certification", "recognizedBy": { "@type": "Organization", "name": "Amazon Web Services" }, "url": "https://www.credly.com/badges/e30c30cc-0dda-4651-bde7-c7aae3e8b5fb" },
+        { "@type": "EducationalOccupationalCredential", "name": "Microsoft 365 Certified: Security Administrator Associate", "credentialCategory": "certification", "recognizedBy": { "@type": "Organization", "name": "Microsoft" }, "url": "https://www.credly.com/badges/17cc4ae6-72b4-427d-9af5-9795c7a53ede" }
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/andreastoh/",
+        "https://github.com/andreastoh",
+        "https://www.youtube.com/channel/UC8nnvdP-AsICPzz7HF8V5Kg",
+        "https://open.spotify.com/artist/1EZELpgCuWKrlrWqyvRtob"
+      ]
+    }
   ]
 }
 </script>
@@ -54,6 +95,12 @@
 
   gtag('config', 'G-VY9QV3VKK5');
 </script>
+
+       <!--==================== FONTS ====================-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link rel="preconnect" href="https://unicons.iconscout.com">
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600&display=swap">
 
        <!--==================== UNICONS ====================-->
  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">       
@@ -179,7 +226,7 @@
                 <span class="section__subtitle">Adaptable. Analytical. Driven. Curious. Focused.</span>
 
                 <div class="about__container container grid">
-                    <img src="assets/img/matterhorn.png" alt="The Matterhorn in the Swiss Alps" class="about_img" loading="lazy">
+                    <img src="assets/img/matterhorn.webp" alt="The Matterhorn in the Swiss Alps" class="about_img" loading="lazy">
 
                     <div class="about__data">
                         <p class="about__description">Andreas is a Cybersecurity Engineer, with deep technical knowledge in systems & network, and excellent project management skills, specialising in security tools implementation and operations.</p>
@@ -639,7 +686,7 @@
                     <div class="swiper-wrapper">
                     <!--==================== PORTFOLIO 1 ====================-->
                     <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/portfolio1.png" alt="Michael Toh Photography website" class="portfolio__img" loading="lazy">
+                        <img src="assets/img/portfolio1.webp" alt="Michael Toh Photography website" class="portfolio__img" loading="lazy">
 
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Michael Toh Photography</h3>
@@ -653,7 +700,7 @@
 
                     <!--==================== PORTFOLIO 2 ====================-->
                     <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/portfolio2.png" alt="Mediamatic Systems website" class="portfolio__img" loading="lazy">
+                        <img src="assets/img/portfolio2.webp" alt="Mediamatic Systems website" class="portfolio__img" loading="lazy">
 
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Mediamatic Systems</h3>
@@ -667,7 +714,7 @@
 
                     <!--==================== PORTFOLIO 3 ====================-->
                     <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/portfolio3.jpg" alt="ATTIX 3D Sound System device" class="portfolio__img" loading="lazy">
+                        <img src="assets/img/portfolio3.webp" alt="ATTIX 3D Sound System device" class="portfolio__img" loading="lazy">
 
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">ATTIX 3D Sound System</h3>
@@ -704,7 +751,7 @@
                             </a>
                         </div>
 
-                        <img src="assets/img/project.png" alt="" class="project__img" loading="lazy">
+                        <img src="assets/img/project.webp" alt="" class="project__img" loading="lazy">
                     </div>
                 </div>
 
