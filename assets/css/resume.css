@@ -179,6 +179,11 @@ body.scale-cv{
 
 .scale-cv .skills__name{
   margin-bottom: var(--mb-1);
+  white-space: nowrap;
+}
+
+.scale-cv .skills__content{
+  column-gap: 0.5rem;
 }
 
 .scale-cv .languages__content{
