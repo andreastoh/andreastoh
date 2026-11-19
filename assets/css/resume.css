@@ -105,6 +105,11 @@ body.scale-cv{
   max-width: 595px;
 }
 
+/* Fill the A4 page (html2pdf renders at 794px wide, so a page is ~1123px tall) */
+.scale-cv .resume{
+  min-height: 1120px;
+}
+
 .scale-cv .section{
   padding: 1.5rem 0 0.80rem;
 }
@@ -174,6 +179,12 @@ body.scale-cv{
 
 .scale-cv .skills__name{
   margin-bottom: var(--mb-1);
+}
+
+.scale-cv .languages__content{
+  grid-template-columns: repeat(4, auto);
+  column-gap: 0.75rem;
+  justify-content: start;
 }
 
 .scale-cv .interests__container{
@@ -460,7 +471,7 @@ img{
 
 .experience__info{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr auto;
 }
 
 .experience__name{
@@ -505,9 +516,14 @@ img{
 }
 
 /*========== SKILLS AND LANGUAGES ==========*/
-.skills__content,
 .languages__content{
   grid-template-columns: repeat(2, 1fr);
+}
+
+.skills__content{
+  grid-template-columns: repeat(2, auto);
+  column-gap: 0.75rem;
+  justify-content: start;
 }
 
 .languages__content{
